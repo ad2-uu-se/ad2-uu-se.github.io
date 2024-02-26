@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en-uk" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Relearn 5.24.2+tip">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Algorithms and Data Structures II (course 1DL231) :: AD2 Homepage">
+    <meta name="twitter:description" content="">
+    <meta property="og:title" content="Algorithms and Data Structures II (course 1DL231) :: AD2 Homepage">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ad2-uu-se.github.io/index.html">
+    <meta property="og:site_name" content="AD2 Homepage">
+    <title>Algorithms and Data Structures II (course 1DL231) :: AD2 Homepage</title>
+    <link href="https://ad2-uu-se.github.io/index.html" rel="canonical" type="text/html" title="Algorithms and Data Structures II (course 1DL231) :: AD2 Homepage">
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Algorithms and Data Structures II (course 1DL231) :: AD2 Homepage">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1708982306" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1708982306" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1708982306" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708982306" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1708982306" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1708982306" rel="stylesheet">
+    <link href="/css/fonts.css?1708982306" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1708982306" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1708982306" rel="stylesheet">
+    <link href="/css/theme-blue.css?1708982306" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1708982306" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1708982306" rel="stylesheet">
+    <link href="/css/print.css?1708982306" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1708982306" rel="stylesheet">
+    <link href="/css/ie.css?1708982306" rel="stylesheet">
+    <script src="/js/url.js?1708982306"></script>
+    <script src="/js/variant.js?1708982306"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      window.relearn = window.relearn || {};
+      window.relearn.baseUriFull='https:\/\/ad2-uu-se.github.io/';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'blue' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print" data-url="/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Algorithms and Data Structures II (course 1DL231)</span><meta itemprop="position" content="1"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable home" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="home">
+            <header class="headline">
+            </header>
+<h1 id="algorithms-and-data-structures-ii-course-1dl231">Algorithms and Data Structures II (course 1DL231)</h1>
+
+<h2 id="overview">Overview</h2>
+<p>All material for the course Algorithms and Data Structures II (course
+1DL231) including slides, lecture plan, assignments and exam
+information.  Management of groups, handing in of assignments, and
+discussion forums will be handled by
+<a href="https://login.studium.uu.se/" target="_blank">studium</a>. All slides and other material
+can be found on this website.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Algorithms and Data Structures II (course 1DL231)</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecturesassignment-timetable">Lectures/Assignment Timetable</h1>
+
+<h2 id="lecture-help-sessions-and-grading-sessions-information">Lecture, help sessions and grading sessions information.</h2>
+<p>There is a menu item for each lecture where you can find a reading
+guide for the textbook, and links to additional material.</p>
+<p>For the lecture locations please look at <a href="https://cloud.timeedit.net/uu/web/wr_staff/ri1wQX8896ZZ7tQw7Q00t9A2yCY685Z7176Q709QQY3Z0YA5BBBdF0C7EACA62D0E2CBBFE2ADBE.phtml" target="_blank">timeedit</a>. If there are any
+discrepancies between this page and timeedit, then please inform me.</p>
+<table>
+<thead>
+<tr>
+<th>Lecture/Assignment</th>
+<th>Date</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2023-10-31 15:15-17:00</td>
+<td>Introduction to the course and revision of Algorithm analysis</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2023-11-02 13:15-15:00</td>
+<td>Divide and Conquer and Algorithm analysis</td>
+</tr>
+<tr>
+<td>3</td>
+<td>2023-11-03 10:15-12:00</td>
+<td>Revision of Graphs, and the Python API for the assignments (Frej Knutar Lewander)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2023-11-06 13:15-15:00</td>
+<td>Dynamic Programming - Introduction</td>
+</tr>
+<tr>
+<td>Help 1a</td>
+<td>2023-11-07 15:15-17:00</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>2023-11-10 10:15-12:00</td>
+<td>Dynamic Programming - Knapsack</td>
+</tr>
+<tr>
+<td>Help 1b</td>
+<td>2023-11-14 08:15-10:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Help 1c</td>
+<td>2023-11-16 08:15-10:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Deadline Assignment 1</td>
+<td>2023-11-17 13:00</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>2023-11-21 10:15-12:00</td>
+<td>Greedy Algorithms</td>
+</tr>
+<tr>
+<td>Help 2a</td>
+<td>2023-11-22 13:15-15:00</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>2023-11-23 13:15-15:00</td>
+<td>Minimal Spanning Trees</td>
+</tr>
+<tr>
+<td>Grading session Assignment 1</td>
+<td>2023-11-27</td>
+<td>By invitation only</td>
+</tr>
+<tr>
+<td>8</td>
+<td>2023-11-27 10:15-12:00</td>
+<td>Network flows</td>
+</tr>
+<tr>
+<td>Help 2b</td>
+<td>2023-11-28 08:15-10:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Solution Session Assignment 1</td>
+<td>2023-11-28 10:15-11:00</td>
+<td>Obs only 45 mins</td>
+</tr>
+<tr>
+<td>9</td>
+<td>2023-11-29 10:15-12:00</td>
+<td>Networks flows, Bipartite matching</td>
+</tr>
+<tr>
+<td>Help 2c</td>
+<td>2023-11-30 15:15-17:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Deadline Assignment 2</td>
+<td>2023-12-01 15:00</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>2023-12-04 10:15-12:00</td>
+<td>Union Find</td>
+</tr>
+<tr>
+<td>Help 3a</td>
+<td>2023-12-05 08:15-10:00</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>2023-12-07 08:15-10:00</td>
+<td>String Matching</td>
+</tr>
+<tr>
+<td>Solution Session Assignment 2</td>
+<td>2023-12-08 15:15-16:00</td>
+<td>Obs only 45 mins</td>
+</tr>
+<tr>
+<td>12</td>
+<td>2023-12-11 15:15-17:00</td>
+<td>P vs NP (Pierre Flener)</td>
+</tr>
+<tr>
+<td>Help  3b</td>
+<td>2023-12-12 13:15-15:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Help 3c</td>
+<td>2023-12-13  08:15-10:00</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>2023-12-14 13:15-15:00</td>
+<td>P vs NP (Pierre Flener)</td>
+</tr>
+<tr>
+<td>Deadline Assignment 3</td>
+<td>2023-12-15 13:00</td>
+<td></td>
+</tr>
+<tr>
+<td>Exam</td>
+<td>2024-01-08</td>
+<td>TBA</td>
+</tr>
+</tbody>
+</table>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="syllabus">Syllabus</h1>
+
+<p>This page is an elaboration of the learning outcome of  <a href="https://www.uu.se/utbildning/kursplan?kKod=1DL231" target="_blank">course
+plan</a></p>
+<p>Specifically we will cover the following topics and sections of the book:</p>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>CLRS3 Textbook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reminder, growth of functions, big-Oh notation, recurrences and divide and conquer.</td>
+<td>Chapters 1-4, except Section *4.6</td>
+</tr>
+<tr>
+<td>Dynamic Programming</td>
+<td>Chapter 15</td>
+</tr>
+<tr>
+<td>Reminder Elementary Graph Algorithms</td>
+<td>Chapter 22  Except 22.4</td>
+</tr>
+<tr>
+<td>Greedy Algorithms</td>
+<td>Chapter 16, except Sections *16.4 and *16.5</td>
+</tr>
+<tr>
+<td>Minimum Spanning Trees (MST)</td>
+<td>Chapter 23 (we only study Prim&rsquo;s algorithm)</td>
+</tr>
+<tr>
+<td>Single-Source Shortest Paths</td>
+<td>Chapter 24: pages 643-650 and Section 24.3</td>
+</tr>
+<tr>
+<td>(we only study Dijkstra&rsquo;s algorithm)</td>
+<td></td>
+</tr>
+<tr>
+<td>Maximum Flow</td>
+<td>Chapter 26, except Sections *26.4 and *26.5</td>
+</tr>
+<tr>
+<td>Disjoint Sets/Union Find</td>
+<td>These <a href="https://people.eecs.berkeley.edu/~vazirani/algorithms/chap5.pdf" target="_blank">notes</a> or Chapter 21</td>
+</tr>
+<tr>
+<td>Strings Matching</td>
+<td>Chapter 32, except Sections 32.3 and *32.4</td>
+</tr>
+<tr>
+<td>P versus NP</td>
+<td>Chapter 34</td>
+</tr>
+</tbody>
+</table>
+<p>In <a href="/lectures/index.html">Lectures</a> you can find a more detailed
+lecture plan with links to additional resources. The timing of the
+assignments has been done quite carefully. By the time you are to
+start the each assignment we should have covered the material in the
+assignments.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="resources">Resources</h1>
+
+<h2 id="text-book">Text Book</h2>
+<ul>
+<li>
+<p>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and
+Clifford Stein. <a href="https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/" target="_blank">Introduction to
+Algorithms</a>
+(fourth edition)   The MIT Press, 2022. This will be referred to as
+CLRS4.</p>
+</li>
+<li>
+<p>The second edition
+<a href="http://www.cs.dartmouth.edu/~thc/clrs-2e-bugs.html" target="_blank">errata</a> or <a href="https://mitpress.mit.edu/9780262533058/" target="_blank">third</a> can also
+be used.  The third edition will be referred  to as CLRS3.</p>
+</li>
+</ul>
+<p>Note that it is now possible to access library resources online
+without being on the University network or using a VPN. You will be
+prompted for you CAS login. You need to go through the library search
+system. For the fourth edition follow this
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>
+and for the third edition
+follow this <a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>.</p>
+<p>Even when the book is available for free via the University library I
+recommend that you buy the book. It is one of the best textbooks on
+algorithms available.</p>
+<p>At the moment most of the reading guides refer to the third edition,
+but I will update the reading guide for the fourth edition as I go
+along.</p>
+<h2 id="reference-book">Reference Book</h2>
+<p>The following book, underlying most of the slides that have been used
+in previous years, can also be used but does not cover Section 4.3 and
+Chapters 21 and 32 of CLRS3:</p>
+<ul>
+<li>Jon Kleinberg and Éva Tardos.  <a href="https://www.pearson.com/us/higher-education/program/Kleinberg-Algorithm-Design/PGM319216.html" target="_blank">Algorithm
+Design</a>
+Addison-Wesley, 2006.</li>
+</ul>
+<h2 id="algorithms-and-data-structures">Algorithms and Data Structures</h2>
+<p>Some useful books and links</p>
+<ul>
+<li>
+<p><!-- raw HTML omitted -->Algorithm Design:
+Foundations, Analysis, and Internet Examples<!-- raw HTML omitted -->, a textbook by
+Michael T. Goodrich and Roberto Tamassia, published by John Wiley &amp;
+Sons in 2001</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->Algorithms<!-- raw HTML omitted -->, a
+textbook by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh
+Vazirani, published by McGraw-Hill in 2007</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->VisuAlgo<!-- raw HTML omitted -->, visualising data
+structures and algorithms through animation, a project led by Steven
+Halim</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->Data
+Structure Visualizations<!-- raw HTML omitted --> by David Galles</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->Dictionary of Algorithms
+and Data Structures<!-- raw HTML omitted --> by Paul E. Black</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->The Stony Brook
+Algorithm Repository<!-- raw HTML omitted --> by Steven Skiena, based on his textbook <!-- raw HTML omitted -->The Algorithm Design Manual<!-- raw HTML omitted -->, second
+edition, published by Springer-Verlag in 2008</p>
+</li>
+</ul>
+<h2 id="python">Python</h2>
+<p>The learning of sufficient skills on the Python programming language
+is <em>within</em> your time budget for this course, but this should not take
+more than a couple hours.  To the best of our knowledge, almost no
+student on this course has officially learned Python at UU, so nobody
+is at a disadvantage.</p>
+<ul>
+<li><a href="https://www.python.org" target="_blank">Python</a> programming language:
+official website; the skeleton codes for all the assignment problems
+are written in Python 3.</li>
+</ul>
+<h2 id="latex-and-demo-report">LaTeX and Demo Report</h2>
+<p>We highly recommend you learn or use LaTeX for typesetting your
+assignment reports in a professional way, but this is optional.  The
+learning of LaTeX is <strong>outside</strong> your time budget for this course, but
+very well-invested as you will find out during the course or later.
+Here are some LaTeX resources:</p>
+<ul>
+<li>
+<p>The <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/demoReport/demoReport.pdf" target="_blank">demo
+report</a>
+and <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/demoReport/" target="_blank">LaTeX
+source</a>,
+which also contain examples of all LaTeX commands you need for this
+course.</p>
+</li>
+<li>
+<p><a href="https://www.latex-project.org" target="_blank">LaTeX</a></p>
+</li>
+<li>
+<p><a href="http://tug.ctan.org/info/lshort/english/lshort.pdf" target="_blank">The (Not So) Short Introduction to LaTeX2e</a>.</p>
+</li>
+<li>
+<p><a href="https://en.wikibooks.org/wiki/LaTeX" target="_blank">The LaTeX wikibook</a> a gentle
+but thorough introduction.</p>
+</li>
+<li>
+<p>Don&rsquo;t know the LaTeX code for that mathematical symbol you need?
+Draw it by hand at
+<a href="http://detexify.kirelabs.org/classify.html" target="_blank">Detexify</a><!-- raw HTML omitted -->, and the
+applet will find the code for you.</p>
+</li>
+<li>
+<p><a href="https://www.cs.dartmouth.edu/~thc/clrscode" target="_blank">clrscode3e</a>
+package for typesetting algorithms as in CLRS3.</p>
+</li>
+</ul>
+<h2 id="extra-slides-for-revision">Extra Slides for Revision</h2>
+<p>When <a href="https://www.it.uu.se/katalog/pierref/" target="_blank">Pierre Flener</a> taught the
+course he used slides by <a href="http://www.cs.princeton.edu/~wayne" target="_blank">Kevin
+Wayne</a>. For some of the lectures I
+use Kevin Wayne&rsquo;s slides, but for lectures where I do not, you are
+still encouraged to look at Kevin Wayne&rsquo;s slides. They contain a
+number of useful examples.</p>
+<!-- raw HTML omitted -->
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="assignments">Assignments</h1>
+
+<h2 id="overall-structure">Overall Structure</h2>
+<p>There are 3 mandatory <em>assignments</em>, to be done in
+<em>alone</em>, worth 2 higher-education credits (ECTS
+credits) in total.</p>
+<p>The main objective of the assignments is to exercise the theoretical
+knowledge gained in the lectures.  You are to hand in the <strong>code</strong> and
+a report. The code should follow the <a href="/codeconv/index.html">coding convention</a> and the report must follow the structure and content
+of the <a href="/demorep/index.html">demo report</a></p>
+<p>For each assignment, the <a href="mailto:it-ad2@lists.uu.se" target="_blank">assistants</a>
+supervise 3 <em>help sessions</em> for troubleshooting in the preparation of
+your reports.</p>
+<p>Each assignment has 2 independent problems, each yielding a <em>problem
+score</em> in $0..5$, hence there is a maximum of 30 points to earn.  For
+each problem, a skeleton code in <a href="https://www.python.org/download/releases/3.0/" target="_blank">Python
+3</a> with  test
+cases is provided.  Insufficiently good reports can be defended orally
+to an assistant in scheduled <em>grading sessions</em>.  Solutions are
+discussed by the assistants in <em>solution sessions</em>.</p>
+<h2 id="submission-requirements">Submission Requirements</h2>
+<p>You must submit :</p>
+<ul>
+<li>Your report</li>
+<li>All relevant python files. You must not change the API or function
+signatures. If you do this, then we cannot run the automated testing
+and you will receive a mark of 0.</li>
+</ul>
+<p>The skeleton code comes with an extensive set of test cases. Your
+submitted code must pass <strong>all</strong> test cases. If you code does not pass
+all test cases, then we will not read your report and you will receive
+a mark of 0 for that part of the assignment. Your implementation
+should be correct, and if it is correct then you should be able to
+pass all the provided test cases.</p>
+<h2 id="help-sessions">Help Sessions</h2>
+<p>The objective of a help session is <em>only</em> for the assistants to help
+you prepare an acceptable solution for the assignment with the closest
+upcoming deadline.  Also, the necessary course material will normally
+have been presented in lectures at least a week prior to the first
+help session.  You are thus able and even <em>strongly encouraged</em> to
+prepare your solution as far as possible until the help sessions and
+to attend them, in order to make best use of that reserved time span
+of personal attention by the assistants.</p>
+<h2 id="solution-session">Solution Session</h2>
+<p>The objective of a solution session is <em>only</em> for the assistants to
+discuss acceptable solutions to the assignment of the previous
+deadline.  <em>No</em> code will be handed out.  The first two solution
+sessions are merged with the initial help sessions to the next
+assignment.  For timetable reasons, the third assignment has no
+solution session.</p>
+<p>Comments on your submitted report can be found on Studium; more
+detailed comments can be obtained orally from the assistants upon
+appointment.</p>
+<h2 id="submission-and-deadlines">Submission and Deadlines</h2>
+<p>All assignment reports, with <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/demoReport/demoReport.pdf" target="_blank">imposed
+structure</a>
+must be submitted electronically via Studium, whose clock may be
+different from yours.  Submission deadlines are <em>hard</em>.  Grading will
+only start after a deadline, so you can submit multiple times until
+then.</p>
+<h2 id="ethics">Ethics</h2>
+<p>Please see the <a href="/contact/index.html">Ethics Guidelines</a> in the
+FAQ.</p>
+<p>We reserve the right to give different assignment scores to the
+teammates of a team, depending on the performance at the grading
+session.</p>
+<p>Please report any problems within a team to the head teacher, who
+will handle the case in confidence, in the best interest of both
+teammates, keeping the ethics dimension in mind.</p>
+<h2 id="expected-effort">Expected Effort</h2>
+<p>One higher-education credit (ECTS credit) translates under Swedish
+university law into an expected 26.67 hours of work for the average
+student.  Hence 133.33 hours are expected on this 5-credit course.</p>
+<p>The assignments are worth 2 credits in total.  Not counting the
+19.5 hours spent on the 13 lectures, <em>the 3 assignments are
+calibrated to take an average of 30 hours each, for the average
+student, for each teammate, including the corresponding help, grading,
+and solution sessions</em>, and this <em>time counts
+also as exam preparation</em>.</p>
+<p>All this does not clash with other courses you are taking, as
+university studies are legally defined to take 400 hours of work per
+study period (normally 10 weeks), and the standard 15 credits targeted
+in a study period are calibrated to reach that total.</p>
+<p>Do not expect the 3 assignments to be equally labour-intensive, and
+do not expect the 2 problems of each assignment to be equally
+labour-intensive.  Assignment 3 is calibrated somewhat shorter due to
+the proximity of the exam.</p>
+<h2 id="former-students">Former Students</h2>
+<p>Students from previous academic years who have not yet been awarded
+the credit point(s) for the assignments contact the head teacher.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="coding-convention">Coding Convention</h1>
+
+<h2 id="software">Software</h2>
+<p>All assignments are to be written in <a href="https://www.python.org/download/releases/3.0/" target="_blank">Python
+3</a>. Your assignments
+will be partially tested by an automated system, and the exact version
+of Python that will be used will be specified on the assignments.</p>
+<p>The learning of sufficient Python  skills is <em>within your time budget
+for this  course</em>, and this should  not take more than  a couple hours.</p>
+<p>We highly recommend you learn or use
+<a href="https://www.latex-project.org" target="_blank">LaTex</a> for typesetting your assignment
+reports in a professional way, but this is optional.  The learning of
+LaTeX is <em>outside</em> your time budget for this course, but very
+well-invested as you will find out during the course or
+later.</p>
+<h2 id="example">Example</h2>
+<p>A program for insertion sort that is fully annotated according to the
+coding convention is given on page 3 of the <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/demoReport/" target="_blank">AD2 demo report</a> which
+also contains examples of all LaTeX2e commands you need for this
+course.</p>
+<h2 id="coding-convention-and-checklist-before-submitting">Coding Convention and Checklist before submitting</h2>
+<p>The first two pages of the <a href="https://user.it.uu.se/~justin/Assets/Teaching/AD2/demoReport/demoReport.pdf" target="_blank">AD2 demo
+report</a>
+contain a checklist that you <em>must</em> follow before submitting and the
+coding convention that you <em>must</em> follow.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="demo-report">Demo Report</h1>
+
+<p>The main objective of the assignments is to exercise the theoretical
+knowledge gained in the lectures, on carefully selected problems of
+our choice.  We are not just interested in sufficiently correct and
+efficient programs, but also in explanations and a runtime analysis,
+hence a report is also required for each assignment and its quality
+has an impact on the score for your assignment.</p>
+<p>See the <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/demoReport/demoReport.pdf" target="_blank">demo
+report</a>
+and <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/demoReport/" target="_blank">LaTeX
+source</a>
+for the imposed document structure and an indication of the expected
+quality of content.  Our expectations are higher than at the exam, as
+the aims are to learn something and to prepare for the exam: we expect
+at least a high degree of <em>correctness</em>, <em>completeness</em>, and
+<em>compliance</em> with the <a href="/codeconv/index.html">coding convention</a> of this course.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="assignment-1">Assignment 1</h1>
+
+<ul>
+<li>
+<p>The specification and the grading rules for assignment 1 can be
+found in the following
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/assignments/assignment1/assignment1.pdf" target="_blank">document</a>. You
+are advised to read the grading rules carefully.</p>
+</li>
+<li>
+<p>All skeleton code can be found
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/assignments/assignment1/" target="_blank">here</a>. You
+must use this years skeleton code, as it has changed from previous
+years.</p>
+</li>
+<li>
+<p>A <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip" target="_blank">Zip
+file</a>
+with
+all the assignments and the source of the demo report. If that link
+does not work then try copying and pasting the following link into
+your browser:
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip" target="_blank">http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</a></p>
+</li>
+</ul>
+<p>Don&rsquo;t forget that your code must pass all the provided test cases. If
+not all test cases are passed then you will get score of 0 on that
+part of the question.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="assignment-2">Assignment 2</h1>
+
+<ul>
+<li>
+<p>The specification and the grading rules for assignment 2 can be
+found in the following
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/assignments/assignment2/assignment2.pdf" target="_blank">document</a>. You
+are advised to read the grading rules carefully.</p>
+</li>
+<li>
+<p>All skeleton code can be found
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/assignments/assignment2/" target="_blank">here</a>. You
+must use this years skeleton code, as it has changed from previous
+years.</p>
+</li>
+<li>
+<p>A <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip" target="_blank">Zip  file</a>with
+all the assignments and the source of the demo report.  If that link
+does not work then try copying and pasting the following link into
+your browser:
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip" target="_blank">http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</a></p>
+</li>
+</ul>
+<p>Don&rsquo;t forget that your code must pass all the provided test cases. If
+not all test cases are passed then you will get score of 0 on that
+part of the question.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="assignment-3">Assignment 3</h1>
+
+<ul>
+<li>
+<p>The specification and the grading rules for assignment 3 can be found
+in the following
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/assignments/assignment3/assignment3.pdf" target="_blank">document</a>. You
+are advised to read the grading rules carefully.</p>
+</li>
+<li>
+<p>All skeleton code can be found
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/assignments/assignment3/" target="_blank">here</a>. You
+must use this years skeleton code, as it has changed from previous
+years.</p>
+</li>
+<li>
+<p>A <a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip" target="_blank">Zip  file</a>with
+all the assignments and the source of the demo report. If that link
+does not work then try copying and pasting the following link into
+your browser:
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip" target="_blank">http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</a></p>
+</li>
+</ul>
+<p>Don&rsquo;t forget that your code must pass all the provided test cases. If
+not all test cases are passed then you will get score of 0 on that
+part of the question.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-1">Lecture 1</h1>
+
+<h2 id="todays-topics-introduction-and-asymptotic-analysis">Today&rsquo;s Topics: Introduction and asymptotic analysis</h2>
+<ul>
+<li>Introduction/revision on algorithm analysis</li>
+<li>Worst case running time.</li>
+<li>Introduction to asymptotic analysis $O$,$\Theta$ and $\Omega$.</li>
+</ul>
+<h2 id="links-to-slides-and-other-material">Links to Slides and other material</h2>
+<ul>
+<li><a href="https://ad2-uu-se.github.io/slides/00-Logistics.pdf" target="_blank">Slides</a>
+on introduction and logistics.</li>
+<li><a href="https://ad2-uu-se.github.io/slides/01-analysis-bigoh-revision.pdf" target="_blank">Slides</a>
+on an asymptotic analysis.</li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>Chapter 1,2, 3.1 and 3.2  of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or <a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a></li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?</h2>
+<ul>
+<li>How is the course structured? How do the assignments, help sessions
+and labs work?</li>
+<li>What does it mean to analyse an algorithm?</li>
+<li>What is worst case performance?</li>
+<li>What is the definition of $O(f(n))$, $\theta(f(n)$, and
+$\Omega(f(n))$?</li>
+<li>What are some of the basic properties of $O()$,$\theta()$, and
+$\Omega()$.</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-2">Lecture 2</h1>
+
+<h2 id="todays-topics-divide-and-conquer-and-algorithm-analysis">Today&rsquo;s topics: Divide and Conquer and Algorithm Analysis</h2>
+<ul>
+<li>Divide and Conquer, in particular how to derive a recurrence
+relation for the running time.</li>
+<li>More on $O$,$\Theta$, and  $\Omega$</li>
+<li>The Master theorem and how to apply it.</li>
+</ul>
+<h2 id="slides-used">Slides used</h2>
+<ul>
+<li><a href="https://ad2-uu-se.github.io/slides/02-algo-analysis.pdf" target="_blank">Algorithm analysis and the master
+theorem</a></li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>
+<p>Chapter  3 and 4 (except 4.6)  of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or Chapter  3 and 4 (except 4.6
+and 4.7)  of
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</p>
+</li>
+<li>
+<p>You might find the following slides useful: <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/05DivideAndConquerI.pdf" target="_blank">Divide and Conquer
+I</a>
+which has some more examples on algorithm analysis, and
+<a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/05DivideAndConquerII.pdf" target="_blank">Divide and Conquer
+II</a>
+that has information on the master theorem.</p>
+</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?</h2>
+
+<span class="math align-center">$\sqrt{3}$</span>
+<p>You should know much more about the Big O notation. In particular</p>
+<ol>
+<li>General algebra with 
+<span class="math align-center">$O$</span>, 
+<span class="math align-center">$\theta$</span> and 
+<span class="math align-center">$\Omega$</span>.  For example when
+is 
+<span class="math align-center">$O(f(n)) \leq  O(g(n))$</span>?</li>
+<li>Constant time 
+<span class="math align-center">$O(1)$</span>.</li>
+<li>Linear time 
+<span class="math align-center">$O(n)$</span>, polynomial time, exponential time</li>
+<li>The rate of different asymptotic growths.</li>
+</ol>
+<p>Further you should know about divide and conquer an algorithm design
+technique and the Analysis of Divide and Conquer using recurrence
+relations. You should understand and be able to reproduce a simple
+divide and conquer analysis of an algorithm such as binary search or
+merge sort. You should understand how to go from recurrence relations
+such as
+
+<span class="math align-center">$$
+T(n) = aT(n/b) + f(n) 
+$$</span>
+to asymptotic analysis of the function $T(n)$. For which functions $g$
+is the following statement true:
+
+<span class="math align-center">$$
+T(n) \in O(g(n))
+$$</span></p>
+<p>Although I do not expect expect you understand the proof, you should
+try to get an intuition of the different cases of the master theorem.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-3">Lecture 3</h1>
+
+<p>Guest Lecture by  Frej Knutar Lewander</p>
+<h2 id="todays-topic-graphs-revision">Today&rsquo;s topic: Graphs revision</h2>
+<ul>
+<li>
+<p>Revision on Digraphs/Digraphs: <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/03Graphs.pdf" target="_blank">Slides
+1-24</a>
+Although some of this will be revision, you should pay attention to
+how the graph representation effects the time complexity.</p>
+</li>
+<li>
+<p><a href="https://ad2-uu-se.github.io/slides/03_frej_ad2.pdf" target="_blank">Some hints and Tips on using Python for your assignments</a></p>
+</li>
+</ul>
+<h2 id="slides">Slides</h2>
+<ul>
+<li>Slides 1-24, 33-43 of
+<a href="http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/03Graphs.pdf" target="_blank">Graphs.pdf</a></li>
+<li><a href="https://ad2-uu-se.github.io/slides/03_frej_ad2.pdf" target="_blank">Slides on Data Structures in Python</a></li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>Chapter 22, except 22.4 of <a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a> or
+Chapter 20, 20.1-20.3 of
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+<li>Chapter 24 Pages 643-650 and Section 24.3 of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or chapter 22 (22.1, 22.2
+22.3)  of <a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?</h2>
+<ul>
+<li>What did I forget from my previous courses?
+<ul>
+<li>What is a graph? What is a digraph?</li>
+<li>What is a good API for graphs?</li>
+<li>How can they be represented?</li>
+<li>Depth-first and breadth-first search.</li>
+</ul>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-4">Lecture 4</h1>
+
+<h2 id="todays-topic-dynamic-programming">Today&rsquo;s topic: Dynamic Programming</h2>
+<ul>
+<li>Dynamic programming. Introduction.</li>
+</ul>
+<h2 id="slides">Slides</h2>
+<ul>
+<li>The slides can be found <a href="https://ad2-uu-se.github.io/slides/04_dynamic_programming_intro.pdf" target="_blank">here</a></li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>Chapter 15, 15.1, 15.2 ,15.3, 15.4  of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or Chapter 14, 14.1 , 14.2, 14.3 and 14.4 of
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?</h2>
+<ul>
+<li>What is dynamic programming? Simple example dynamic programming as
+Memorisation.</li>
+<li>Some example dynamic programs.</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-5">Lecture 5</h1>
+
+<h2 id="todays-topic-dynamic-programming">Today&rsquo;s topic: Dynamic Programming</h2>
+<ul>
+<li>More on Dynamic Programming, Knapsack and an example.</li>
+<li>Pseudo Polynomial vs. Polynomial.</li>
+</ul>
+<h2 id="links-to-slides">Links to Slides</h2>
+<ul>
+<li>The slides can be found  <a href="https://ad2-uu-se.github.io/slides/05_dynamic_programming_cont.pdf" target="_blank">here</a></li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>
+<p>All of Chapter 15 of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a> or all of
+Chapter 14 of
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</p>
+</li>
+<li>
+<p>The textbook does not say that much about pseudo-polynomial time and
+the 0-1 Knapsack problem, even though it is an important
+concept. There there is plenty of material on the internet. I suggest
+that you start with the Wikipedia entries on <a href="https://en.wikipedia.org/wiki/Pseudo-polynomial_time" target="_blank">Pseudo-polynomial
+time</a> and the
+<a href="https://en.wikipedia.org/wiki/Knapsack_problem" target="_blank">Knapsack
+problem</a>. You also
+might find these
+<a href="https://courses.csail.mit.edu/6.006/fall11/rec/rec21_knapsack.pdf" target="_blank">notes</a>
+useful.</p>
+</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?</h2>
+<ul>
+<li>Yet more dynamic programming examples</li>
+<li>How to decompose a problem using Dynamic Programming</li>
+<li>Optimal substructure</li>
+<li>The difference between polynomial and pseudo-polynomial time. Ask
+yourself why isn&rsquo;t the dynamic program for 0-1 Knapsack polynomial
+time?</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-6">Lecture 6</h1>
+
+<h2 id="todays-topics-greedy-algorithms">Today&rsquo;s topics: Greedy Algorithms</h2>
+<ul>
+<li>Introduction to Greedy <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsI.pdf" target="_blank">Slides
+1-15</a>.
+<ul>
+<li>We  will look a greedy algorithm for the coin-change problem. This only
+works with certain denomination coins. You should understand the
+proof of why it works, and when it works.</li>
+<li>Interval scheduling. Again we met a dynamic programming solution
+before, here we will look at a simple greedy algorithm and
+understand why it is correct.</li>
+</ul>
+</li>
+<li>Shortest Paths as a greedy algorithm. <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsII.pdf" target="_blank">Slides 1-16</a></li>
+<li>All-Pairs Shortest path using Dynamic programming (The
+‣ Bellman–Ford–Moore algorithm). <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/06DynamicProgrammingII.pdf" target="_blank">Slides
+33-41</a></li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>Chapter 16 except 16.4 and 16.5 of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or Chapter 15, 15.1,15.2 and
+15.3 of
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?</h2>
+<ul>
+<li>How do I set up shortest paths as a dynamic program? How do I avoid cycles?</li>
+<li>How does Dijkstra’s algorithm work? Why is it correct?</li>
+<li>What is a greedy algorithm?
+<ul>
+<li>How do greedy algorithms compare with dynamic programming?</li>
+<li>Are Greedy algorithms always optimal?</li>
+</ul>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-7">Lecture 7</h1>
+
+<h2 id="todays-topics-minimal-spanning-trees">Today&rsquo;s topics: Minimal Spanning Trees.</h2>
+<ul>
+<li>Minimal Spanning Trees, Prim&rsquo;s algorithm.</li>
+<li>slides  20-49 of <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsII.pdf" target="_blank">Greedy Algorithms
+II</a></li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>Chapter 23 of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or Chapter 21 of
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?</h2>
+<ul>
+<li>What is a minimal spanning tree?</li>
+<li>Why is the greedy algorithm correct?</li>
+<li>How does Prim&rsquo;s Algorithm work?</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lectures-89">Lectures 8,9</h1>
+
+<h2 id="network-flows">Network Flows</h2>
+<p>When I do these lectures live, it normally takes me 3 lectures to go
+through the material slowly and do lots of examples.  This is a list
+of topics that are needed to under network flows.  You goal should be
+to understand each topic.</p>
+<ul>
+<li>Definition of  flow network.</li>
+<li>The minimum-cut problem.</li>
+<li>The maximum flow problem.</li>
+<li>The definition of a residual network.</li>
+<li>An Augmented path.</li>
+<li>The statement of the Min-cut, max-flow theorem.</li>
+<li>The Ford–Fulkerson algorithm.</li>
+<li>How to use the max-flow algorithm for maximum bipartite matching.</li>
+</ul>
+<h2 id="lecture-8">Lecture 8</h2>
+<ul>
+<li>Introduction to  <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07NetworkFlowI.pdf" target="_blank">NetworkFlow
+I</a>
+Slides 1-23 and  <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07DemoFordFulkerson.pdf" target="_blank">Demo of Ford-Fulkerson</a></li>
+</ul>
+<h2 id="lecture-9">Lecture 9</h2>
+<ul>
+<li>
+<p>Alternative mathematical API. Flows that are Skew Symmetric flows,
+that is  $f(u,v)= -
+f(v,u)$.  We&rsquo;ll do this on the blackboard, but skew symmetric flows
+are a bit counter intuitive, but they make the proofs and
+implementation easier. Take a look at the presentation at
+<a href="https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm" target="_blank">Wikipedia</a>. This
+is not examined, and I won&rsquo;t go into much detail.</p>
+</li>
+<li>
+<p>Min-Cut Max-Flow duality slides 25-36 of
+<a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07NetworkFlowI.pdf" target="_blank">NetworkFlow
+I</a></p>
+</li>
+<li>
+<p>Bipartite matching slides 1-17 of <a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07NetworkFlowII.pdf" target="_blank">NetworkFlow
+II</a>.</p>
+</li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>Chapter 26, except 26.4 and 26.5 of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or Chapter 24 of
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-set-of-lectures">What should I know by the end of this set of lectures?</h2>
+<ul>
+<li>Do I understand the definitions of a flow network, min-cuts and
+maximum flows?</li>
+<li>Why does the naive greedy algorithm  for maximum flow fail?</li>
+<li>The relation between augmented paths and residual networks.</li>
+<li>What is the relationship between flows and cuts?</li>
+<li>What is the relationship between negative flows and residual
+networks?</li>
+<li>What does the min-cut max-flow algorithm tell us and how does it
+help us to derive an algorithm?</li>
+<li>What is bipartite matching? What are its applications?</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-10">Lecture 10</h1>
+
+<h2 id="todays-topic-union-find">Today&rsquo;s topic: Union Find</h2>
+<ul>
+<li>Disjoint-set data-type. What is the API and some applications?</li>
+<li>Naive representation: Sets represented as trees.</li>
+<li>Representing trees as arrays, and Naive linking.</li>
+<li>Link by Size</li>
+<li>Link by Rank</li>
+<li>Path compression</li>
+<li>Analysis of run time.</li>
+</ul>
+<h2 id="slides">Slides</h2>
+<p>I used slides 1 to 41 from
+<a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/UnionFind.pdf" target="_blank">UnionFind</a>.</p>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>These <a href="https://people.eecs.berkeley.edu/~vazirani/algorithms/chap5.pdf" target="_blank">notes</a>
+contain useful information on greedy algorithms in general and section
+5.1.4 is on Union Find. The best source is the textbook Chapter 21
+(excluding section 21.4) of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or
+Chapter 19 (excluding 19.4) of <a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="link-to-online-lectures-for-further-study">Link to online lectures for further study.</h2>
+<p>Both <a href="https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw" target="_blank">William
+Fist</a> and
+<a href="https://www.youtube.com/channel/UC7FzTMO4rKvlqIyU5vwzFKQ" target="_blank">Josh Hug</a>
+cover the same material, although Josh Hug takes it much more slowly.</p>
+<ul>
+<li><a href="https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw" target="_blank">William Fist</a> has a number of useful lectures on Union-Find
+<ul>
+<li><a href="https://youtu.be/ibjEGG7ylHk" target="_blank">Introducton</a>.</li>
+<li><a href="https://youtu.be/JZBQLXgSGfs" target="_blank">Application</a>.</li>
+<li><a href="https://youtu.be/0jNmHPfA_yE" target="_blank">Union and Find Operations</a> with
+trees and arrays.</li>
+<li><a href="https://youtu.be/VHRhJWacxis" target="_blank">Path Compression</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/channel/UC7FzTMO4rKvlqIyU5vwzFKQ" target="_blank">Josh Hug</a>
+<ul>
+<li><a href="https://youtu.be/JNa8BRRs8L4" target="_blank">Introduction</a> to the Union Find API</li>
+<li><a href="https://youtu.be/W6Dckcv8PIo" target="_blank">Quick Find</a></li>
+<li><a href="https://youtu.be/RY7UCusguGg" target="_blank">Quick Union</a></li>
+<li><a href="https://youtu.be/xc9s9wdaSdU" target="_blank">Weighted Quick Union</a></li>
+<li><a href="https://youtu.be/DZKzDebT4gU" target="_blank">Path Compression</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-set-of-lecture">What should I know by the end of this set of lecture?</h2>
+<ul>
+<li>
+<p>What is the union-find API?</p>
+</li>
+<li>
+<p>What are some of the applications of union-find?</p>
+</li>
+<li>
+<p>How can I use trees to represent sets?</p>
+</li>
+<li>
+<p>How do I represent sets of trees as a forest?</p>
+</li>
+<li>
+<p>What are the different strategies for combining trees? Link by Size
+and Link by Rank.</p>
+</li>
+<li>
+<p>What is path compression? How does this improve the complexity of
+union-find?  Note that if you go deeply into the analysis of
+union-find you will come to amortised analysis. This is the
+analysis of the complexity of an algorithm over
+multiple-runs. Amortised analysis is not part of this course, but
+it is part of <a href="https://www.uu.se/en/admissions/master/selma/kursplan/?kKod=1DL481" target="_blank">AD3 -
+1DL481</a>
+that is normally taught by <a href="https://katalog.uu.se/empinfo/?id=N99-130" target="_blank">Pierre
+Flener</a></p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-11">Lecture 11</h1>
+
+<h2 id="todays-topic-string-matching">Today&rsquo;s topic: String Matching</h2>
+<ul>
+<li>The Rabin-Karp algorithm for fast string matching.</li>
+</ul>
+<h2 id="slides">Slides</h2>
+<ul>
+<li><a href="https://ad2-uu-se.github.io/slides/11_string_matching.pdf" target="_blank">Slides</a></li>
+</ul>
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>Chapter 32 except sections 32.3 and 32.4 of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or <a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-set-of-lecture">What should I know by the end of this set of lecture?</h2>
+<ul>
+<li>How does Rabin-Karp work? What is the clever idea with
+hash-functions.</li>
+<li>How does Rabin-Karp compare with brute force string matching?</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lecture-12-and-13">Lecture 12 and 13</h1>
+
+<h2 id="todays-topic-p-vs-np">Today&rsquo;s topic: P vs NP</h2>
+<p>This will be a not so formal introduction to P and NP. Every computer
+scientist should know something about NP complete problems. If you
+know that a problem is NP complete, then you know that it is very hard
+to find an optimal solution.</p>
+<ul>
+<li>The definition of P and NP</li>
+<li>The definition of Reduction and NP Hardness</li>
+<li>NP Completeness</li>
+<li>Some NP Complete Problems.</li>
+<li>What now? What courses should I take to learn more about algorithms
+and optimisation?</li>
+</ul>
+<h2 id="links-to-slides-and--other-material">Links to Slides and  other material.</h2>
+<p>These lectures will given by <a href="https://katalog.uu.se/empinfo/?id=N99-130" target="_blank">Pierre
+Flener</a>.</p>
+<p>The slides for the lecture can be found <a href="https://ad2-uu-se.github.io/slides/34-PversusNP.pdf" target="_blank">here</a></p>
+<!-- raw HTML omitted -->
+<h2 id="reading-guide">Reading Guide</h2>
+<ul>
+<li>All of Chapter 34 of
+<a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3</a>
+or
+<a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&context=L&vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4</a>.</li>
+</ul>
+<h2 id="what-should-i-know-by-the-end-of-this-set-of-lecture">What should I know by the end of this set of lecture?</h2>
+<ul>
+<li>The definition of NP? What has guessing a solution got to do with
+complexity?</li>
+<li>How do reductions work?</li>
+<li>What is a complete problem for a complexity class?</li>
+<li>You should know some NP-complete problems and have enough idea about
+how reductions work so that you can decide if your problem is
+NP-complete or not.</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="exam">Exam</h1>
+
+<p>There is an individual, written, closed-book exam at the end of the
+course.</p>
+<p>Some old exams can be found
+<a href="http://user.it.uu.se/~justin/Assets/Teaching/AD2/OldExams/" target="_blank">here</a>.</p>
+<h2 id="expected-effort">Expected Effort</h2>
+<p>One higher-education credit (ECTS credit) translates under Swedish
+university law into an expected 26.67 hours of work for the average
+student.  Hence 133.33 hours are expected on this 5-credit course.</p>
+<p>The exam is worth 3 credits.  In addition to the exam preparation
+performed while working (during 90 hours) for the 2 credits for the
+<a href="/assignments/index.html">assignments</a> the remaining
+preparation and the taking of the exam are expected to take 24 hours.
+Recall that 19.5 hours are spent on the 13 lectures.</p>
+<p>All this does not clash with other courses you are taking, as
+university studies are legally defined to take 400 hours of work per
+study period (normally 10 weeks), and the standard 15 credits targeted
+in a study period are calibrated to reach that total.</p>
+<h2 id="exam-grade">Exam Grade</h2>
+<p>The <strong>exam grade</strong> is determined by a <a href="/grades/index.html">published scale</a> depending on the exam
+score.</p>
+<h2 id="overall-grade">Overall Grade</h2>
+<p>The <strong>overall grade</strong> is determined by a <a href="/grades/index.html">published scale</a>, depending on the <a href="/assignments/index.html">assignment</a> and exam scores.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="recommended-exercises">Recommended Exercises</h1>
+
+<p>Recommended exercises from the CLR3 book for exam preparation. Don&rsquo;t
+forget the book is available <a href="https://tinyurl.com/y32x75cb" target="_blank">online</a> at
+the University library. All these exercises are from the third
+edition. I don&rsquo;t have the answers to the questions, and some of the
+exercises are non-trivial but will give you a deeper understanding of
+the material in book.</p>
+<ul>
+<li>
+<p>Chapter 15</p>
+<ul>
+<li>15.1-2</li>
+<li>15.1-3</li>
+<li>15-2-2</li>
+<li>15.4-1</li>
+<li>15.4-2</li>
+<li>15.4-3</li>
+</ul>
+</li>
+<li>
+<p>Chapter 16</p>
+<ul>
+<li>16.1-1</li>
+<li>16.1-2</li>
+<li>16.1-3</li>
+<li>16.1-4</li>
+</ul>
+</li>
+<li>
+<p>Chapter 21</p>
+<ul>
+<li>21.3-1</li>
+</ul>
+</li>
+<li>
+<p>Chapter 23</p>
+<ul>
+<li>The exercises in this chapter are bit more theoretical than the
+questions that I have on the exam, but you really should make sure
+that you understand the material in the chapter.</li>
+</ul>
+</li>
+<li>
+<p>Chapter 23, 26.1-26.2</p>
+<ul>
+<li>Again the exercises in this chapter are bit more theoretical than the
+questions that I have on the exam, but you really should make sure
+that you understand the material section 26.1-26.2</li>
+</ul>
+</li>
+<li>
+<p>Chapter 32</p>
+<ul>
+<li>32.1-1</li>
+<li>32.2-1</li>
+</ul>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="grades-and-credits">Grades and Credits</h1>
+
+<h2 id="assignments">Assignments</h2>
+<p>The three assignments are worth 2 higher-education credits (ECTS
+credits).  The <strong>assignment grade</strong> is as follows when $a_i$ is your
+final score (out of 10) on Assignment $i \in 1..3$, and $a = a_1 +
+a_2 + a_3$ is your total score. You must earn at least 3 points (of
+10) on each assignment until the end of its grading session, including
+at least 1 point (of 5) on each problem.</p>
+<table>
+<thead>
+<tr>
+<th>Grade</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>$a \in \{25\ldots 30\}$</td>
+</tr>
+<tr>
+<td>4</td>
+<td>$a \in \{20\ldots 24\}$</td>
+</tr>
+<tr>
+<td>3</td>
+<td>$a \in \{15\ldots 19\}$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="exam">Exam</h2>
+<p>The exam is worth 3 higher-education credits (ECTS
+credits).  The exam is  marked out of 20. The exam is constructed in
+such a way to have no marks that are fractions of a point.
+The following table
+gives your grade assignment. Let $e$ be your total exam score:</p>
+<table>
+<thead>
+<tr>
+<th>Grade</th>
+<th>Total Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>$e \in \{17 \ldots  20\}$</td>
+</tr>
+<tr>
+<td>4</td>
+<td>$e \in \{14\ldots 16\}$</td>
+</tr>
+<tr>
+<td>3</td>
+<td>$e \in \{10\ldots 13\}$</td>
+</tr>
+<tr>
+<td>U</td>
+<td>$e \in \{0\ldots 9\}$</td>
+</tr>
+</tbody>
+</table>
+<p>Note that previous instances of the course and versions of this
+web-page had the exam marked out of 30. At some point actual exam was re-scaled
+to have 20 questions, with each question being worth 1.5 points. To
+get to the original scale some rounding up or down (usually up and in
+the student favour) had to be done. This new version of the table is
+much simpler and gives the student the same marks as before.</p>
+<h2 id="overall-grade">Overall Grade</h2>
+<p>The overall grade is a weighted sum
+as follows when you have earned the assignment
+credits with total score $a=a_1+a_2+a_3$ (out of 30)
+and the  exam credits with score $e$ (out of 20),
+following table gives the overall grade:</p>
+<table>
+<thead>
+<tr>
+<th>Grade</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5</td>
+<td>$2\cdot a + 3\cdot 1.5 \cdot e \in \{121\ldots 150\}$</td>
+</tr>
+<tr>
+<td>4</td>
+<td>$2\cdot a + 3\cdot 1.5 \cdot e \in \{96\ldots 120\}$</td>
+</tr>
+<tr>
+<td>3</td>
+<td>$2\cdot a + 3\cdot 1.5 \cdot e \in \{75\ldots 95\}$</td>
+</tr>
+</tbody>
+</table>
+<p>Note that you must pass both the assignments and the exam to get a
+final grade.  If the resulting grade is lower than your exam grade,
+then the overall grade is the exam grade.</p>
+<p>Note that the extra factor of $1.5$ for the exam grade is to
+calibrate a 20 point exam to a 30 point exam. Future version of this
+course web page will simply recalibrate the intervals, but I have left
+them this year (2020) in order not to confuse students.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="contact-help-ethics-and-faq">Contact, Help, Ethics and FAQ&#34;</h1>
+
+<p>Before contacting anyone for help, please check whether your
+question has an answer in the FAQ list below.  If not:</p>
+<ul>
+<li>
+<p>If you have a question about the <strong>lecture material</strong> or <strong>course
+organisation</strong>, then contact the <a href="http://user.it.uu.se/~justin/Hugo/#contact" target="_blank">head
+teacher</a>.</p>
+</li>
+<li>
+<p>If you have a question about the <strong>assignments</strong> or
+<strong>infrastructure</strong>, then contact the assistants at a help or solution
+session for an immediate answer.  Short <em>clarification</em> questions
+(that is: <em>not</em> about programming issues) that are emailed to the <a href="mailto:it-ad2@lists.uu.se" target="_blank">AD2
+helpdesk</a> are answered as soon as possible
+during working days and hours.  No answer means that you should go to
+a help session: almost all the assistants&rsquo; budgeted time is allocated
+to grading and to the help, grading, and solution sessions.</p>
+</li>
+</ul>
+<h2 id="ethics">Ethics</h2>
+<p>The <a href="http://www.it.uu.se/student/programmes_and_courses#cheating" target="_blank">legislation on plagiarism and
+cheating</a>
+and Pierre Flener&rsquo;s
+<a href="http://user.it.uu.se/~pierref/ethics.html" target="_blank">summary</a> of Uppsala
+University will be rigorously applied, without exceptions.  This
+disallows using a public repository (such as GitHub, where you should
+use a <a href="https://education.github.com/pack" target="_blank">free private student
+repository</a> for code management.
+We reserve the right to use plagiarism detection tools and point out
+that they are extremely powerful.</p>
+<h2 id="frequently-asked-questions-faq-and-answers">Frequently Asked Questions (FAQ) and Answers</h2>
+<h3 id="a-generalities">A. Generalities</h3>
+<ol>
+<li>
+<p><strong>Will I get rich after passing this course?</strong>
+Some of the wealthiest people on the planet made their fortunes from
+clever algorithms and data structures, witness Sergey Brin and Larry
+Page, inventors of the Google web search engine (valued at many
+gazillions of sek).  Some of the wealthiest people in Sweden studied
+at Uppsala University and went on to develop software needing clever
+algorithms and data structures, witness some of the founders of OnGame
+(acquired by bwin for about 4.5 billion sek), MySQL (acquired by Sun
+Microsystems for about 6.3 billion sek), and Skype (acquired by eBay
+for at least 17 billion sek).  There is no limit to the need for
+efficient algorithms and data structures.</p>
+</li>
+<li>
+<p><strong>What are the practical applications of the discussed
+algorithms and data structures?</strong> Most batches of slides list a
+lot of practical applications.  Each algorithm and data structure has
+an abstract name so that one does not risk thinking its scope is
+restricted to a particular application.</p>
+</li>
+<li>
+<p><strong>Why all this theory in the course?  Why is it at the
+beginning of the course?  Is it useful?</strong> In order to discuss
+in a scientific way the relative merits of alternative algorithms or
+data structures for a given purpose, we need an analytic way of
+predicting their performance, rather than experimentally and
+inaccurately measuring it in milliseconds or bytes.  The (few!)
+notions seen are among the most celebrated of computing science and
+will transcend the rest of your studies as well as any programmer
+career.</p>
+</li>
+<li>
+<p><strong>Why are there not more examples and solved exercises in
+lectures?</strong> Like every course, AD2 has a <a href="http://www.uu.se/en/education/master/selma/kursplan/?kKod=1DL231" target="_blank">required theoretical
+content</a>
+(which is <em><strong>not</strong></em> decided by the head teacher) and the standard time
+budget (students are 33% fulltime on AD2, and no teacher is anywhere
+near fulltime on AD2): the balance of theory and practice in the
+lectures simply follows from these data and is not a sign of our bad
+will.  On the contrary, if allocated more time (but this is
+impossible), then we would love to offer additional practical problem
+solving sessions.</p>
+</li>
+</ol>
+<h3 id="b-assignments-help-sessions-grading-sessions-and-solution-sessions">B. Assignments, Help Sessions, Grading Sessions, and Solution Sessions</h3>
+<ol>
+<li>
+<p><strong>Why are there not more assistants?  Why are there not more
+examples and solved / supervised exercises by assistants in lessons?</strong>
+Like every course, AD2 has the standard time budget (students are 33%
+fulltime on AD2, and no teacher is anywhere near fulltime on AD2): the
+number of scheduled events simply follows from these data and is not a
+sign of our bad will.  On the contrary, if allocated more time (but
+this is impossible), then we would love to offer additional practical
+problem solving sessions.</p>
+</li>
+<li>
+<p><strong>How do I best use my time, and yours, in order to solve
+an assignment?</strong> Prepare your solution as far as possible until
+the corresponding help sessions, in order to make best use of that
+reserved timespan of personal attention by the assistants.  This is
+much more effective than going to a help session, printing out the
+assignment (which was published at least a week before the first help
+session and often does not require any material taught in the
+meantime), and not meeting all the difficulties until the end of the
+two session hours.</p>
+</li>
+<li>
+<p><strong>Why is there not more email support for the assignments?</strong> We have
+scheduled almost all the standard time budget for the lectures, help
+sessions, grading sessions, solution sessions, grading, and
+preparation.  This is why we can only answer to emailed short
+questions that trigger brief reply times, and this is a more personal
+and rational way of spending the standard time budget: more email
+support would inevitably result in fewer help sessions.</p>
+</li>
+<li>
+<p><strong>I am lost!  Why do the assignment instructions not tell us <em>how</em>
+to solve the questions?</strong> Stating only <em>what</em> output has to be
+computed from the inputs is a pedagogical choice.  In real-life
+engineering problems, you are not asked to solve a problem by using
+method <em>m</em> on page <em>p</em> of textbook <em>t</em>.  Come to some of the help
+sessions of an assignment in order to get advice on what is wrong with
+your current solution or get hints on <em>how</em> to proceed.  If you think
+a programming task is insufficiently described in terms of its pre-
+and post-conditions, then contact the teachers: we vet problem
+descriptions with utmost care and no flaws are due to purpose or
+sloppiness.</p>
+</li>
+<li>
+<p><strong>Why are the assignment questions neither in sync with the lecture
+contents, nor closer to them?</strong> See the previous question.  The
+assignment questions are at most within the order of difficulty of the
+questions tackled in the lectures, and the lecture material helps in
+solving them, but the data structures and algorithms to be designed in
+assignments are new compared to the lectures, and they have been
+selected as examples of the infinite variety of interesting
+algorithmic questions that occur in real life.</p>
+</li>
+<li>
+<p><strong>Why are there not a lot of small assignments rather
+than the few bigger ones?</strong> Algorithm and data structure design
+is best practised not by drill of small questions with no relation to
+each other or real life, but by tackling bigger assignments, which
+have been selected as examples of the infinite variety of interesting
+algorithmic questions that occur in real life.</p>
+</li>
+<li>
+<p><strong>Why are the assignments to be programmed in Python rather than in
+any language of my choice?</strong> We have no resources for offering
+skeleton programs and simple test cases for more than one programming
+language.  A lot of students prefer those features over the freedom of
+choice of a programming language.  Besides, our semi-automated grading
+system is language-specific for the same reason: it allows us to grade
+assignments faster and to dedicate more of the standard time budget to
+actual teaching.</p>
+</li>
+<li>
+<p><strong>Why do we need to hand in reports in addition to programs?</strong> This
+is an algorithms course and the algorithms underlying your programs
+have to be analysed, hence a report is needed, as we are not just
+interested in knowing the complexity you claim your algorithm has, but
+also in <em>how</em> you made that claim.  Also note that this course was
+chosen in order to fulfil the curriculum goal of the ability to
+communicate in writing: see the <a href="http://www.uu.se/en/education/master/selma/kursplan/?kKod=1DL231" target="_blank">course goals</a></p>
+</li>
+<li>
+<p><strong>Why do we not get more finegrained feedback on our assignment
+reports and programs?</strong> Our solution sessions are a more rational way
+to use the standard time budget: we give collective feedback instead
+of finegrained team-wise feedback.  More detailed comments can be
+obtained orally from the <!-- raw HTML omitted -->assistants<!-- raw HTML omitted --> upon
+appointment.</p>
+</li>
+<li>
+<p><strong>Why do I need to spend so much time on the assignments when they
+are only worth 2 credits?</strong> Any time spent on the assignments reduces
+the amount of time needed to prepare for the exam, so it pays
+off.</p>
+</li>
+</ol>
+<h3 id="c-exam-grades-and-credits">C. Exam, Grades, and Credits</h3>
+<ol>
+<li>
+<p><strong>When will the exam be graded?  It was a multiple-choice exam, so
+why are &ldquo;the&rdquo; answers not published right away?</strong> The head teacher
+will first read the starred comments, if any, about the questions in
+the handed-in answer sheets and then only grade, as such comments may
+affect his judgement about which answers can be acceptable with full
+or partial credit.  He will grade as soon as he finds the time after
+getting the answer sheets.  Please be patient.</p>
+</li>
+<li>
+<p><strong>Where are model answers to the questions of previous exams?</strong>
+Nowhere, except for the multiple-choice exams.  The head teacher does
+not believe in making such answers available (on-line or otherwise)
+without discussing solution processes or any alternative correct
+answers in person at the same time.  This is the pedagogical approach
+taken also for the assignments, where you can contact the assistants
+for this purpose.</p>
+</li>
+<li>
+<p><strong>Will there be algorithm design questions in the exam?  Will exam
+questions be similar to the assignment questions?</strong>  Algorithmic
+skills are mostly tested in the assignments.  Any algorithms for exam
+questions will be a handful lines long, but algorithm design
+experience from the assignments ought to be useful for such exam
+questions.  Analytic skills tested in the assignments also ought to be
+useful for exam questions.</p>
+</li>
+<li>
+<p><strong>Will we have multiple-choice exam questions?</strong>  The head teacher
+has the right for any form of examination and decides as he sees fit.
+Note that a multiple-choice question saves you the time of tidying up
+your answer notes explaining how you reached your chosen answer.
+Further, if you think a question is unclear or wrong, then you are
+free to explain on the answer sheet what your difficulty with the
+question is and what assumption underlies the answer you have chosen
+or the other answer you indicate.  Also, partial credit can be given
+to some answers in exceptional circumstances.</p>
+</li>
+<li>
+<p><strong>What will the exam questions be?  What should I focus
+on when preparing the exam?</strong> Try and come to the lectures, as
+the head teacher makes it very clear there what the most important
+elements of the course material are.</p>
+</li>
+<li>
+<p><strong>I nearly passed the exam.  What can I do to avoid
+taking the next exam?</strong> No make-up opportunities will be
+created for near-passes, as the head teacher evaluates those cases
+very carefully before announcing the exam results.</p>
+</li>
+</ol>
+<h3 id="d-resources-contact-help-ethics-faq-course-evaluations-and-feedback">D. Resources, Contact, Help, Ethics, FAQ, Course Evaluations, and Feedback</h3>
+<ul>
+<li>
+<p><strong>Why do I not get a reply to my emailed query?</strong>  On working days
+and hours, you can normally expect a reply within a few hours,
+provided the question is brief, unanswered in this FAQ, answerable in
+a short time (and <em>not</em> about programming issues), and sent to <a href="mailto:it-ad2@lists.uu.se" target="_blank">all
+the assistants</a> at the same time.</p>
+</li>
+<li>
+<p><strong>Are you interested in additional links to great internet
+resources?</strong> Yes, absolutely!  Send us an email with links, and we
+will add the best ones to the course web-pages.</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1708982306" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1708982306" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="/js/mathjax/tex-mml-chtml.js?1708982306"></script>
+    <script src="/js/theme.js?1708982306" defer></script>
+  </body>
+</html>

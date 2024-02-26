@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms and Data Structures II (course 1DL231) on AD2 Homepage</title>
+    <link>https://ad2-uu-se.github.io/index.html</link>
+    <description>Recent content in Algorithms and Data Structures II (course 1DL231) on AD2 Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ad2-uu-se.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lectures/Assignment Timetable</title>
+      <link>https://ad2-uu-se.github.io/lectures/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lectures/index.html</guid>
+      <description>Lecture/Assignment  plan and link to the individual lectures.</description>
+    </item>
+    <item>
+      <title>Syllabus</title>
+      <link>https://ad2-uu-se.github.io/syllabus/index.html</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/syllabus/index.html</guid>
+      <description>Overview of the couse.</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://ad2-uu-se.github.io/resources/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:49:26 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/resources/index.html</guid>
+      <description>Text Book Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms (fourth edition) The MIT Press, 2022. This will be referred to as CLRS4.
+The second edition errata or third can also be used. The third edition will be referred to as CLRS3.
+Note that it is now possible to access library resources online without being on the University network or using a VPN. You will be prompted for you CAS login.</description>
+    </item>
+    <item>
+      <title>Assignments</title>
+      <link>https://ad2-uu-se.github.io/assignments/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:49:26 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/assignments/index.html</guid>
+      <description>Overall Structure There are 3 mandatory assignments, to be done in alone, worth 2 higher-education credits (ECTS credits) in total.
+The main objective of the assignments is to exercise the theoretical knowledge gained in the lectures. You are to hand in the code and a report. The code should follow the coding convention and the report must follow the structure and content of the demo report
+For each assignment, the assistants supervise 3 help sessions for troubleshooting in the preparation of your reports.</description>
+    </item>
+    <item>
+      <title>Coding Convention</title>
+      <link>https://ad2-uu-se.github.io/codeconv/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/codeconv/index.html</guid>
+      <description>Obligatory coding convention for you assignments.</description>
+    </item>
+    <item>
+      <title>Demo Report</title>
+      <link>https://ad2-uu-se.github.io/demorep/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/demorep/index.html</guid>
+      <description>The main objective of the assignments is to exercise the theoretical knowledge gained in the lectures, on carefully selected problems of our choice. We are not just interested in sufficiently correct and efficient programs, but also in explanations and a runtime analysis, hence a report is also required for each assignment and its quality has an impact on the score for your assignment.
+See the demo report and LaTeX source for the imposed document structure and an indication of the expected quality of content.</description>
+    </item>
+    <item>
+      <title>Assignment 1</title>
+      <link>https://ad2-uu-se.github.io/assignment1/index.html</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/assignment1/index.html</guid>
+      <description>The specification and the grading rules for assignment 1 can be found in the following document. You are advised to read the grading rules carefully.
+All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.
+A Zip file with all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.</description>
+    </item>
+    <item>
+      <title>Assignment 2</title>
+      <link>https://ad2-uu-se.github.io/assignment2/index.html</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/assignment2/index.html</guid>
+      <description>The specification and the grading rules for assignment 2 can be found in the following document. You are advised to read the grading rules carefully.
+All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.
+A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.</description>
+    </item>
+    <item>
+      <title>Assignment 3</title>
+      <link>https://ad2-uu-se.github.io/assignment3/index.html</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/assignment3/index.html</guid>
+      <description>The specification and the grading rules for assignment 3 can be found in the following document. You are advised to read the grading rules carefully.
+All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.
+A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.</description>
+    </item>
+    <item>
+      <title>Lecture 1</title>
+      <link>https://ad2-uu-se.github.io/lecture1/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture1/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 2</title>
+      <link>https://ad2-uu-se.github.io/lecture2/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture2/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 3</title>
+      <link>https://ad2-uu-se.github.io/lecture3/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture3/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 4</title>
+      <link>https://ad2-uu-se.github.io/lecture4/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture4/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 5</title>
+      <link>https://ad2-uu-se.github.io/lecture5/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture5/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 6</title>
+      <link>https://ad2-uu-se.github.io/lecture6/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture6/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 7</title>
+      <link>https://ad2-uu-se.github.io/lecture7/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture7/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lectures 8,9</title>
+      <link>https://ad2-uu-se.github.io/lectures8-9/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate>
+      <guid>https://ad2-uu-se.github.io/lectures8-9/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 10</title>
+      <link>https://ad2-uu-se.github.io/lecture10/index.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture10/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 11</title>
+      <link>https://ad2-uu-se.github.io/lecture11/index.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/lecture11/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 12 and 13</title>
+      <link>https://ad2-uu-se.github.io/lectures12-13/index.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/lectures12-13/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Exam</title>
+      <link>https://ad2-uu-se.github.io/exam/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/exam/index.html</guid>
+      <description>There is an individual, written, closed-book exam at the end of the course.
+Some old exams can be found here.
+Expected Effort One higher-education credit (ECTS credit) translates under Swedish university law into an expected 26.67 hours of work for the average student. Hence 133.33 hours are expected on this 5-credit course.
+The exam is worth 3 credits. In addition to the exam preparation performed while working (during 90 hours) for the 2 credits for the assignments the remaining preparation and the taking of the exam are expected to take 24 hours.</description>
+    </item>
+    <item>
+      <title>Recommended Exercises</title>
+      <link>https://ad2-uu-se.github.io/exercises/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/exercises/index.html</guid>
+      <description>Recommended exercises from the CLR3 book for exam preparation. Don&amp;rsquo;t forget the book is available online at the University library. All these exercises are from the third edition. I don&amp;rsquo;t have the answers to the questions, and some of the exercises are non-trivial but will give you a deeper understanding of the material in book.
+Chapter 15
+15.1-2 15.1-3 15-2-2 15.4-1 15.4-2 15.4-3 Chapter 16
+16.1-1 16.1-2 16.1-3 16.1-4 Chapter 21</description>
+    </item>
+    <item>
+      <title>Grades and Credits</title>
+      <link>https://ad2-uu-se.github.io/grades/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/grades/index.html</guid>
+      <description>Assignments The three assignments are worth 2 higher-education credits (ECTS credits). The assignment grade is as follows when $a_i$ is your final score (out of 10) on Assignment $i \in 1..3$, and $a = a_1 + a_2 + a_3$ is your total score. You must earn at least 3 points (of 10) on each assignment until the end of its grading session, including at least 1 point (of 5) on each problem.</description>
+    </item>
+    <item>
+      <title>Contact, Help, Ethics and FAQ&#34;</title>
+      <link>https://ad2-uu-se.github.io/contact/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://ad2-uu-se.github.io/contact/index.html</guid>
+      <description>Before contacting anyone for help, please check whether your question has an answer in the FAQ list below. If not:
+If you have a question about the lecture material or course organisation, then contact the head teacher.
+If you have a question about the assignments or infrastructure, then contact the assistants at a help or solution session for an immediate answer. Short clarification questions (that is: not about programming issues) that are emailed to the AD2 helpdesk are answered as soon as possible during working days and hours.</description>
+    </item>
+  </channel>
+</rss>

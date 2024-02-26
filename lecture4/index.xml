@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture 4 on AD2 Homepage</title>
+    <link>https://ad2-uu-se.github.io/lecture4/index.html</link>
+    <description>Recent content in Lecture 4 on AD2 Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 19 Aug 2020 11:41:46 +0200</lastBuildDate>
+    <atom:link href="https://ad2-uu-se.github.io/lecture4/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
