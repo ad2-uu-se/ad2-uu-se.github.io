@@ -13,7 +13,7 @@ var relearn_search_index = [
     "description": "",
     "tags": null,
     "title": "Lectures/Assignment Timetable",
-    "uri": "/lectures/index.html"
+    "uri": "/timetable/index.html"
   },
   {
     "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
@@ -25,14 +25,6 @@ var relearn_search_index = [
   },
   {
     "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
-    "content": "Text Book Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms (fourth edition) The MIT Press, 2022. This will be referred to as CLRS4.\nThe second edition errata or third can also be used. The third edition will be referred to as CLRS3.\nNote that it is now possible to access library resources online without being on the University network or using a VPN. You will be prompted for you CAS login. You need to go through the library search system. For the fourth edition follow this CLRS4 and for the third edition follow this CLRS3.\nEven when the book is available for free via the University library I recommend that you buy the book. It is one of the best textbooks on algorithms available.\nAt the moment most of the reading guides refer to the third edition, but I will update the reading guide for the fourth edition as I go along.\nReference Book The following book, underlying most of the slides that have been used in previous years, can also be used but does not cover Section 4.3 and Chapters 21 and 32 of CLRS3:\nJon Kleinberg and Éva Tardos. Algorithm Design Addison-Wesley, 2006. Algorithms and Data Structures Some useful books and links\nAlgorithm Design: Foundations, Analysis, and Internet Examples, a textbook by Michael T. Goodrich and Roberto Tamassia, published by John Wiley \u0026 Sons in 2001\nAlgorithms, a textbook by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani, published by McGraw-Hill in 2007\nVisuAlgo, visualising data structures and algorithms through animation, a project led by Steven Halim\nData Structure Visualizations by David Galles\nDictionary of Algorithms and Data Structures by Paul E. Black\nThe Stony Brook Algorithm Repository by Steven Skiena, based on his textbook The Algorithm Design Manual, second edition, published by Springer-Verlag in 2008\nPython The learning of sufficient skills on the Python programming language is within your time budget for this course, but this should not take more than a couple hours. To the best of our knowledge, almost no student on this course has officially learned Python at UU, so nobody is at a disadvantage.\nPython programming language: official website; the skeleton codes for all the assignment problems are written in Python 3. LaTeX and Demo Report We highly recommend you learn or use LaTeX for typesetting your assignment reports in a professional way, but this is optional. The learning of LaTeX is outside your time budget for this course, but very well-invested as you will find out during the course or later. Here are some LaTeX resources:\nThe demo report and LaTeX source, which also contain examples of all LaTeX commands you need for this course.\nLaTeX\nThe (Not So) Short Introduction to LaTeX2e.\nThe LaTeX wikibook a gentle but thorough introduction.\nDon’t know the LaTeX code for that mathematical symbol you need? Draw it by hand at Detexify, and the applet will find the code for you.\nclrscode3e package for typesetting algorithms as in CLRS3.\nExtra Slides for Revision When Pierre Flener taught the course he used slides by Kevin Wayne. For some of the lectures I use Kevin Wayne’s slides, but for lectures where I do not, you are still encouraged to look at Kevin Wayne’s slides. They contain a number of useful examples.\n",
-    "description": "",
-    "tags": null,
-    "title": "Resources",
-    "uri": "/resources/index.html"
-  },
-  {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
     "content": "Overall Structure There are 3 mandatory assignments, to be done in alone, worth 2 higher-education credits (ECTS credits) in total.\nThe main objective of the assignments is to exercise the theoretical knowledge gained in the lectures. You are to hand in the code and a report. The code should follow the coding convention and the report must follow the structure and content of the demo report\nFor each assignment, the assistants supervise 3 help sessions for troubleshooting in the preparation of your reports.\nEach assignment has 2 independent problems, each yielding a problem score in $0..5$, hence there is a maximum of 30 points to earn. For each problem, a skeleton code in Python 3 with test cases is provided. Insufficiently good reports can be defended orally to an assistant in scheduled grading sessions. Solutions are discussed by the assistants in solution sessions.\nSubmission Requirements You must submit :\nYour report All relevant python files. You must not change the API or function signatures. If you do this, then we cannot run the automated testing and you will receive a mark of 0. The skeleton code comes with an extensive set of test cases. Your submitted code must pass all test cases. If you code does not pass all test cases, then we will not read your report and you will receive a mark of 0 for that part of the assignment. Your implementation should be correct, and if it is correct then you should be able to pass all the provided test cases.\nHelp Sessions The objective of a help session is only for the assistants to help you prepare an acceptable solution for the assignment with the closest upcoming deadline. Also, the necessary course material will normally have been presented in lectures at least a week prior to the first help session. You are thus able and even strongly encouraged to prepare your solution as far as possible until the help sessions and to attend them, in order to make best use of that reserved time span of personal attention by the assistants.\nSolution Session The objective of a solution session is only for the assistants to discuss acceptable solutions to the assignment of the previous deadline. No code will be handed out. The first two solution sessions are merged with the initial help sessions to the next assignment. For timetable reasons, the third assignment has no solution session.\nComments on your submitted report can be found on Studium; more detailed comments can be obtained orally from the assistants upon appointment.\nSubmission and Deadlines All assignment reports, with imposed structure must be submitted electronically via Studium, whose clock may be different from yours. Submission deadlines are hard. Grading will only start after a deadline, so you can submit multiple times until then.\nEthics Please see the Ethics Guidelines in the FAQ.\nWe reserve the right to give different assignment scores to the teammates of a team, depending on the performance at the grading session.\nPlease report any problems within a team to the head teacher, who will handle the case in confidence, in the best interest of both teammates, keeping the ethics dimension in mind.\nExpected Effort One higher-education credit (ECTS credit) translates under Swedish university law into an expected 26.67 hours of work for the average student. Hence 133.33 hours are expected on this 5-credit course.\nThe assignments are worth 2 credits in total. Not counting the 19.5 hours spent on the 13 lectures, the 3 assignments are calibrated to take an average of 30 hours each, for the average student, for each teammate, including the corresponding help, grading, and solution sessions, and this time counts also as exam preparation.\nAll this does not clash with other courses you are taking, as university studies are legally defined to take 400 hours of work per study period (normally 10 weeks), and the standard 15 credits targeted in a study period are calibrated to reach that total.\nDo not expect the 3 assignments to be equally labour-intensive, and do not expect the 2 problems of each assignment to be equally labour-intensive. Assignment 3 is calibrated somewhat shorter due to the proximity of the exam.\nFormer Students Students from previous academic years who have not yet been awarded the credit point(s) for the assignments contact the head teacher.\n",
     "description": "",
     "tags": null,
@@ -40,132 +32,140 @@ var relearn_search_index = [
     "uri": "/assignments/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Assignments",
     "content": "Software All assignments are to be written in Python 3. Your assignments will be partially tested by an automated system, and the exact version of Python that will be used will be specified on the assignments.\nThe learning of sufficient Python skills is within your time budget for this course, and this should not take more than a couple hours.\nWe highly recommend you learn or use LaTex for typesetting your assignment reports in a professional way, but this is optional. The learning of LaTeX is outside your time budget for this course, but very well-invested as you will find out during the course or later.\nExample A program for insertion sort that is fully annotated according to the coding convention is given on page 3 of the AD2 demo report which also contains examples of all LaTeX2e commands you need for this course.\nCoding Convention and Checklist before submitting The first two pages of the AD2 demo report contain a checklist that you must follow before submitting and the coding convention that you must follow.\n",
     "description": "",
     "tags": null,
     "title": "Coding Convention",
-    "uri": "/codeconv/index.html"
+    "uri": "/assignments/codeconv/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Assignments",
     "content": "The main objective of the assignments is to exercise the theoretical knowledge gained in the lectures, on carefully selected problems of our choice. We are not just interested in sufficiently correct and efficient programs, but also in explanations and a runtime analysis, hence a report is also required for each assignment and its quality has an impact on the score for your assignment.\nSee the demo report and LaTeX source for the imposed document structure and an indication of the expected quality of content. Our expectations are higher than at the exam, as the aims are to learn something and to prepare for the exam: we expect at least a high degree of correctness, completeness, and compliance with the coding convention of this course.\n",
     "description": "",
     "tags": null,
     "title": "Demo Report",
-    "uri": "/demorep/index.html"
+    "uri": "/assignments/demorep/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Assignments",
     "content": " The specification and the grading rules for assignment 1 can be found in the following document. You are advised to read the grading rules carefully.\nAll skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.\nA Zip file with all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip\nDon’t forget that your code must pass all the provided test cases. If not all test cases are passed then you will get score of 0 on that part of the question.\n",
     "description": "",
     "tags": null,
     "title": "Assignment 1",
-    "uri": "/assignment1/index.html"
+    "uri": "/assignments/assignment1/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Assignments",
     "content": " The specification and the grading rules for assignment 2 can be found in the following document. You are advised to read the grading rules carefully.\nAll skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.\nA Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip\nDon’t forget that your code must pass all the provided test cases. If not all test cases are passed then you will get score of 0 on that part of the question.\n",
     "description": "",
     "tags": null,
     "title": "Assignment 2",
-    "uri": "/assignment2/index.html"
+    "uri": "/assignments/assignment2/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Assignments",
     "content": " The specification and the grading rules for assignment 3 can be found in the following document. You are advised to read the grading rules carefully.\nAll skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.\nA Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip\nDon’t forget that your code must pass all the provided test cases. If not all test cases are passed then you will get score of 0 on that part of the question.\n",
     "description": "",
     "tags": null,
     "title": "Assignment 3",
-    "uri": "/assignment3/index.html"
+    "uri": "/assignments/assignment3/index.html"
   },
   {
     "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "content": "Links to slides and detailed information on the lectures.\n",
+    "description": "",
+    "tags": null,
+    "title": "Lectures",
+    "uri": "/lectures/index.html"
+  },
+  {
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s Topics: Introduction and asymptotic analysis Introduction/revision on algorithm analysis Worst case running time. Introduction to asymptotic analysis $O$,$\\Theta$ and $\\Omega$. Links to Slides and other material Slides on introduction and logistics. Slides on an asymptotic analysis. Reading Guide Chapter 1,2, 3.1 and 3.2 of CLRS3 or CLRS4 What should I know by the end of this lecture? How is the course structured? How do the assignments, help sessions and labs work? What does it mean to analyse an algorithm? What is worst case performance? What is the definition of $O(f(n))$, $\\theta(f(n)$, and $\\Omega(f(n))$? What are some of the basic properties of $O()$, $\\theta()$, and $\\Omega()$. ",
     "description": "",
     "tags": null,
     "title": "Lecture 1",
-    "uri": "/lecture1/index.html"
+    "uri": "/lectures/lecture1/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topics: Divide and Conquer and Algorithm Analysis Divide and Conquer, in particular how to derive a recurrence relation for the running time. More on $O$,$\\Theta$, and $\\Omega$ The Master theorem and how to apply it. Slides used Algorithm analysis and the master theorem Reading Guide Chapter 3 and 4 (except 4.6) of CLRS3 or Chapter 3 and 4 (except 4.6 and 4.7) of CLRS4.\nYou might find the following slides useful: Divide and Conquer I which has some more examples on algorithm analysis, and Divide and Conquer II that has information on the master theorem.\nWhat should I know by the end of this lecture? $\\sqrt{3}$ You should know much more about the Big O notation. In particular\nGeneral algebra with $O$, $\\theta$ and $\\Omega$. For example when is $O(f(n)) \\leq O(g(n))$? Constant time $O(1)$. Linear time $O(n)$, polynomial time, exponential time The rate of different asymptotic growths. Further you should know about divide and conquer an algorithm design technique and the Analysis of Divide and Conquer using recurrence relations. You should understand and be able to reproduce a simple divide and conquer analysis of an algorithm such as binary search or merge sort. You should understand how to go from recurrence relations such as $$ T(n) = aT(n/b) + f(n) $$ to asymptotic analysis of the function $T(n)$. For which functions $g$ is the following statement true: $$ T(n) \\in O(g(n)) $$\nAlthough I do not expect expect you understand the proof, you should try to get an intuition of the different cases of the master theorem.\n",
     "description": "",
     "tags": null,
     "title": "Lecture 2",
-    "uri": "/lecture2/index.html"
+    "uri": "/lectures/lecture2/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Guest Lecture by Frej Knutar Lewander\nToday’s topic: Graphs revision Revision on Digraphs/Digraphs: Slides 1-24 Although some of this will be revision, you should pay attention to how the graph representation effects the time complexity.\nSome hints and Tips on using Python for your assignments\nSlides Slides 1-24, 33-43 of Graphs.pdf Slides on Data Structures in Python Reading Guide Chapter 22, except 22.4 of CLRS3 or Chapter 20, 20.1-20.3 of CLRS4. Chapter 24 Pages 643-650 and Section 24.3 of CLRS3 or chapter 22 (22.1, 22.2 22.3) of CLRS4. What should I know by the end of this lecture? What did I forget from my previous courses? What is a graph? What is a digraph? What is a good API for graphs? How can they be represented? Depth-first and breadth-first search. ",
     "description": "",
     "tags": null,
     "title": "Lecture 3",
-    "uri": "/lecture3/index.html"
+    "uri": "/lectures/lecture3/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topic: Dynamic Programming Dynamic programming. Introduction. Slides The slides can be found here Reading Guide Chapter 15, 15.1, 15.2 ,15.3, 15.4 of CLRS3 or Chapter 14, 14.1 , 14.2, 14.3 and 14.4 of CLRS4. What should I know by the end of this lecture? What is dynamic programming? Simple example dynamic programming as Memorisation. Some example dynamic programs. ",
     "description": "",
     "tags": null,
     "title": "Lecture 4",
-    "uri": "/lecture4/index.html"
+    "uri": "/lectures/lecture4/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topic: Dynamic Programming More on Dynamic Programming, Knapsack and an example. Pseudo Polynomial vs. Polynomial. Links to Slides The slides can be found here Reading Guide All of Chapter 15 of CLRS3 or all of Chapter 14 of CLRS4.\nThe textbook does not say that much about pseudo-polynomial time and the 0-1 Knapsack problem, even though it is an important concept. There there is plenty of material on the internet. I suggest that you start with the Wikipedia entries on Pseudo-polynomial time and the Knapsack problem. You also might find these notes useful.\nWhat should I know by the end of this lecture? Yet more dynamic programming examples How to decompose a problem using Dynamic Programming Optimal substructure The difference between polynomial and pseudo-polynomial time. Ask yourself why isn’t the dynamic program for 0-1 Knapsack polynomial time? ",
     "description": "",
     "tags": null,
     "title": "Lecture 5",
-    "uri": "/lecture5/index.html"
+    "uri": "/lectures/lecture5/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topics: Greedy Algorithms Introduction to Greedy Slides 1-15. We will look a greedy algorithm for the coin-change problem. This only works with certain denomination coins. You should understand the proof of why it works, and when it works. Interval scheduling. Again we met a dynamic programming solution before, here we will look at a simple greedy algorithm and understand why it is correct. Shortest Paths as a greedy algorithm. Slides 1-16 All-Pairs Shortest path using Dynamic programming (The ‣ Bellman–Ford–Moore algorithm). Slides 33-41 Reading Guide Chapter 16 except 16.4 and 16.5 of CLRS3 or Chapter 15, 15.1,15.2 and 15.3 of CLRS4. What should I know by the end of this lecture? How do I set up shortest paths as a dynamic program? How do I avoid cycles? How does Dijkstra’s algorithm work? Why is it correct? What is a greedy algorithm? How do greedy algorithms compare with dynamic programming? Are Greedy algorithms always optimal? ",
     "description": "",
     "tags": null,
     "title": "Lecture 6",
-    "uri": "/lecture6/index.html"
+    "uri": "/lectures/lecture6/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topics: Minimal Spanning Trees. Minimal Spanning Trees, Prim’s algorithm. slides 20-49 of Greedy Algorithms II Reading Guide Chapter 23 of CLRS3 or Chapter 21 of CLRS4. What should I know by the end of this lecture? What is a minimal spanning tree? Why is the greedy algorithm correct? How does Prim’s Algorithm work? ",
     "description": "",
     "tags": null,
     "title": "Lecture 7",
-    "uri": "/lecture7/index.html"
+    "uri": "/lectures/lecture7/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Network Flows When I do these lectures live, it normally takes me 3 lectures to go through the material slowly and do lots of examples. This is a list of topics that are needed to under network flows. You goal should be to understand each topic.\nDefinition of flow network. The minimum-cut problem. The maximum flow problem. The definition of a residual network. An Augmented path. The statement of the Min-cut, max-flow theorem. The Ford–Fulkerson algorithm. How to use the max-flow algorithm for maximum bipartite matching. Lecture 8 Introduction to NetworkFlow I Slides 1-23 and Demo of Ford-Fulkerson Lecture 9 Alternative mathematical API. Flows that are Skew Symmetric flows, that is $f(u,v)= - f(v,u)$. We’ll do this on the blackboard, but skew symmetric flows are a bit counter intuitive, but they make the proofs and implementation easier. Take a look at the presentation at Wikipedia. This is not examined, and I won’t go into much detail.\nMin-Cut Max-Flow duality slides 25-36 of NetworkFlow I\nBipartite matching slides 1-17 of NetworkFlow II.\nReading Guide Chapter 26, except 26.4 and 26.5 of CLRS3 or Chapter 24 of CLRS4. What should I know by the end of this set of lectures? Do I understand the definitions of a flow network, min-cuts and maximum flows? Why does the naive greedy algorithm for maximum flow fail? The relation between augmented paths and residual networks. What is the relationship between flows and cuts? What is the relationship between negative flows and residual networks? What does the min-cut max-flow algorithm tell us and how does it help us to derive an algorithm? What is bipartite matching? What are its applications? ",
     "description": "",
     "tags": null,
     "title": "Lectures 8,9",
-    "uri": "/lectures8-9/index.html"
+    "uri": "/lectures/lectures8-9/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topic: Union Find Disjoint-set data-type. What is the API and some applications? Naive representation: Sets represented as trees. Representing trees as arrays, and Naive linking. Link by Size Link by Rank Path compression Analysis of run time. Slides I used slides 1 to 41 from UnionFind.\nReading Guide These notes contain useful information on greedy algorithms in general and section 5.1.4 is on Union Find. The best source is the textbook Chapter 21 (excluding section 21.4) of CLRS3 or Chapter 19 (excluding 19.4) of CLRS4. Link to online lectures for further study. Both William Fist and Josh Hug cover the same material, although Josh Hug takes it much more slowly.\nWilliam Fist has a number of useful lectures on Union-Find Introducton. Application. Union and Find Operations with trees and arrays. Path Compression Josh Hug Introduction to the Union Find API Quick Find Quick Union Weighted Quick Union Path Compression What should I know by the end of this set of lecture? What is the union-find API?\nWhat are some of the applications of union-find?\nHow can I use trees to represent sets?\nHow do I represent sets of trees as a forest?\nWhat are the different strategies for combining trees? Link by Size and Link by Rank.\nWhat is path compression? How does this improve the complexity of union-find? Note that if you go deeply into the analysis of union-find you will come to amortised analysis. This is the analysis of the complexity of an algorithm over multiple-runs. Amortised analysis is not part of this course, but it is part of AD3 - 1DL481 that is normally taught by Pierre Flener\n",
     "description": "",
     "tags": null,
     "title": "Lecture 10",
-    "uri": "/lecture10/index.html"
+    "uri": "/lectures/lecture10/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topic: String Matching The Rabin-Karp algorithm for fast string matching. Slides Slides Reading Guide Chapter 32 except sections 32.3 and 32.4 of CLRS3 or CLRS4. What should I know by the end of this set of lecture? How does Rabin-Karp work? What is the clever idea with hash-functions. How does Rabin-Karp compare with brute force string matching? ",
     "description": "",
     "tags": null,
     "title": "Lecture 11",
-    "uri": "/lecture11/index.html"
+    "uri": "/lectures/lecture11/index.html"
   },
   {
-    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231) \u003e Lectures",
     "content": "Today’s topic: P vs NP This will be a not so formal introduction to P and NP. Every computer scientist should know something about NP complete problems. If you know that a problem is NP complete, then you know that it is very hard to find an optimal solution.\nThe definition of P and NP The definition of Reduction and NP Hardness NP Completeness Some NP Complete Problems. What now? What courses should I take to learn more about algorithms and optimisation? Links to Slides and other material. These lectures will given by Pierre Flener.\nThe slides for the lecture can be found here\nReading Guide All of Chapter 34 of CLRS3 or CLRS4. What should I know by the end of this set of lecture? The definition of NP? What has guessing a solution got to do with complexity? How do reductions work? What is a complete problem for a complexity class? You should know some NP-complete problems and have enough idea about how reductions work so that you can decide if your problem is NP-complete or not. ",
     "description": "",
     "tags": null,
     "title": "Lecture 12 and 13",
-    "uri": "/lectures12-13/index.html"
+    "uri": "/lectures/lectures12-13/index.html"
   },
   {
     "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
@@ -190,6 +190,14 @@ var relearn_search_index = [
     "tags": null,
     "title": "Grades and Credits",
     "uri": "/grades/index.html"
+  },
+  {
+    "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",
+    "content": "Text Book Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms (fourth edition) The MIT Press, 2022. This will be referred to as CLRS4.\nThe second edition errata or third can also be used. The third edition will be referred to as CLRS3.\nNote that it is now possible to access library resources online without being on the University network or using a VPN. You will be prompted for you CAS login. You need to go through the library search system. For the fourth edition follow this CLRS4 and for the third edition follow this CLRS3.\nEven when the book is available for free via the University library I recommend that you buy the book. It is one of the best textbooks on algorithms available.\nAt the moment most of the reading guides refer to the third edition, but I will update the reading guide for the fourth edition as I go along.\nReference Book The following book, underlying most of the slides that have been used in previous years, can also be used but does not cover Section 4.3 and Chapters 21 and 32 of CLRS3:\nJon Kleinberg and Éva Tardos. Algorithm Design Addison-Wesley, 2006. Algorithms and Data Structures Some useful books and links\nAlgorithm Design: Foundations, Analysis, and Internet Examples, a textbook by Michael T. Goodrich and Roberto Tamassia, published by John Wiley \u0026 Sons in 2001\nAlgorithms, a textbook by Sanjoy Dasgupta, Christos Papadimitriou, and Umesh Vazirani, published by McGraw-Hill in 2007\nVisuAlgo, visualising data structures and algorithms through animation, a project led by Steven Halim\nData Structure Visualizations by David Galles\nDictionary of Algorithms and Data Structures by Paul E. Black\nThe Stony Brook Algorithm Repository by Steven Skiena, based on his textbook The Algorithm Design Manual, second edition, published by Springer-Verlag in 2008\nPython The learning of sufficient skills on the Python programming language is within your time budget for this course, but this should not take more than a couple hours. To the best of our knowledge, almost no student on this course has officially learned Python at UU, so nobody is at a disadvantage.\nPython programming language: official website; the skeleton codes for all the assignment problems are written in Python 3. LaTeX and Demo Report We highly recommend you learn or use LaTeX for typesetting your assignment reports in a professional way, but this is optional. The learning of LaTeX is outside your time budget for this course, but very well-invested as you will find out during the course or later. Here are some LaTeX resources:\nThe demo report and LaTeX source, which also contain examples of all LaTeX commands you need for this course.\nLaTeX\nThe (Not So) Short Introduction to LaTeX2e.\nThe LaTeX wikibook a gentle but thorough introduction.\nDon’t know the LaTeX code for that mathematical symbol you need? Draw it by hand at Detexify, and the applet will find the code for you.\nclrscode3e package for typesetting algorithms as in CLRS3.\nExtra Slides for Revision When Pierre Flener taught the course he used slides by Kevin Wayne. For some of the lectures I use Kevin Wayne’s slides, but for lectures where I do not, you are still encouraged to look at Kevin Wayne’s slides. They contain a number of useful examples.\n",
+    "description": "",
+    "tags": null,
+    "title": "Resources",
+    "uri": "/resources/index.html"
   },
   {
     "breadcrumb": "Algorithms and Data Structures II (course 1DL231)",

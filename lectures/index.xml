@@ -1,14 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lectures/Assignment Timetable on AD2 Homepage</title>
+    <title>Lectures on AD2 Homepage</title>
     <link>https://ad2-uu-se.github.io/lectures/index.html</link>
-    <description>Recent content in Lectures/Assignment Timetable on AD2 Homepage</description>
+    <description>Recent content in Lectures on AD2 Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
     <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
-    <lastBuildDate>Wed, 19 Aug 2020 11:41:46 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ad2-uu-se.github.io/lectures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture1/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture1/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 2</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture2/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture2/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 3</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture3/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture3/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 4</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture4/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture4/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 5</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture5/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture5/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 6</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture6/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture6/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 7</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture7/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture7/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lectures 8,9</title>
+      <link>https://ad2-uu-se.github.io/lectures/lectures8-9/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lectures8-9/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 10</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture10/index.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture10/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 11</title>
+      <link>https://ad2-uu-se.github.io/lectures/lecture11/index.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lecture11/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
+    <item>
+      <title>Lecture 12 and 13</title>
+      <link>https://ad2-uu-se.github.io/lectures/lectures12-13/index.html</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/lectures/lectures12-13/index.html</guid>
+      <description>Lecture plan and link to slides.</description>
+    </item>
   </channel>
 </rss>
