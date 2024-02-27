@@ -2,15 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ad2-uu-se.github.io/index.html</loc>
-    <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/timetable/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/syllabus/index.html</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ad2-uu-se.github.io/resources/index.html</loc>
+    <lastmod>2020-08-19T11:49:26+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/assignments/index.html</loc>
@@ -38,35 +40,28 @@
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/index.html</loc>
-    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture1/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture2/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture3/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture4/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture5/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture6/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture7/index.html</loc>
-    <lastmod>2020-08-19T11:41:46+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lectures8-9/index.html</loc>
@@ -74,19 +69,15 @@
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture10/index.html</loc>
-    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lecture11/index.html</loc>
-    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/lectures/lectures12-13/index.html</loc>
-    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/exam/index.html</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/exercises/index.html</loc>
@@ -94,11 +85,6 @@
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/grades/index.html</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ad2-uu-se.github.io/resources/index.html</loc>
-    <lastmod>2020-08-19T11:49:26+02:00</lastmod>
   </url>
   <url>
     <loc>https://ad2-uu-se.github.io/contact/index.html</loc>

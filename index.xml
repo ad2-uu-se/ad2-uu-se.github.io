@@ -8,21 +8,34 @@
     <language>en-uk</language>
     <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
     <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
-    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ad2-uu-se.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lectures/Assignment Timetable</title>
       <link>https://ad2-uu-se.github.io/timetable/index.html</link>
-      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
       <guid>https://ad2-uu-se.github.io/timetable/index.html</guid>
-      <description>Lecture/Assignment  plan and link to the individual lectures.</description>
+      <description> Lecture, help sessions and grading sessions information. There is a menu item for each lecture where you can find a reading guide for the textbook, and links to additional material.
+For the lecture locations please look at timeedit. If there are any discrepancies between this page and timeedit, then please inform me.
+Lecture/Assignment Date Topic 1 2023-10-31 15:15-17:00 Introduction to the course and revision of Algorithm analysis 2 2023-11-02 13:15-15:00 Divide and Conquer and Algorithm analysis 3 2023-11-03 10:15-12:00 Revision of Graphs, and the Python API for the assignments (Frej Knutar Lewander) 4 2023-11-06 13:15-15:00 Dynamic Programming - Introduction Help 1a 2023-11-07 15:15-17:00 5 2023-11-10 10:15-12:00 Dynamic Programming - Knapsack Help 1b 2023-11-14 08:15-10:00 Help 1c 2023-11-16 08:15-10:00 Deadline Assignment 1 2023-11-17 13:00 6 2023-11-21 10:15-12:00 Greedy Algorithms Help 2a 2023-11-22 13:15-15:00 7 2023-11-23 13:15-15:00 Minimal Spanning Trees Grading session Assignment 1 2023-11-27 By invitation only 8 2023-11-27 10:15-12:00 Network flows Help 2b 2023-11-28 08:15-10:00 Solution Session Assignment 1 2023-11-28 10:15-11:00 Obs only 45 mins 9 2023-11-29 10:15-12:00 Networks flows, Bipartite matching Help 2c 2023-11-30 15:15-17:00 Deadline Assignment 2 2023-12-01 15:00 10 2023-12-04 10:15-12:00 Union Find Help 3a 2023-12-05 08:15-10:00 11 2023-12-07 08:15-10:00 String Matching Solution Session Assignment 2 2023-12-08 15:15-16:00 Obs only 45 mins 12 2023-12-11 15:15-17:00 P vs NP (Pierre Flener) Help 3b 2023-12-12 13:15-15:00 Help 3c 2023-12-13 08:15-10:00 13 2023-12-14 13:15-15:00 P vs NP (Pierre Flener) Deadline Assignment 3 2023-12-15 13:00 Exam 2024-01-08 TBA </description>
     </item>
     <item>
       <title>Syllabus</title>
       <link>https://ad2-uu-se.github.io/syllabus/index.html</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
       <guid>https://ad2-uu-se.github.io/syllabus/index.html</guid>
-      <description>Overview of the couse.</description>
+      <description>This page is an elaboration of the learning outcome of course plan
+Specifically we will cover the following topics and sections of the book:
+Topic CLRS3 Textbook Reminder, growth of functions, big-Oh notation, recurrences and divide and conquer. Chapters 1-4, except Section *4.6 Dynamic Programming Chapter 15 Reminder Elementary Graph Algorithms Chapter 22 Except 22.4 Greedy Algorithms Chapter 16, except Sections *16.4 and *16.5 Minimum Spanning Trees (MST) Chapter 23 (we only study Prim&amp;rsquo;s algorithm) Single-Source Shortest Paths Chapter 24: pages 643-650 and Section 24.</description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://ad2-uu-se.github.io/resources/index.html</link>
+      <pubDate>Wed, 19 Aug 2020 11:49:26 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/resources/index.html</guid>
+      <description>Text Book Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms (fourth edition) The MIT Press, 2022. This will be referred to as CLRS4.
+The second edition errata or third can also be used. The third edition will be referred to as CLRS3.
+Note that it is now possible to access library resources online without being on the University network or using a VPN. You will be prompted for you CAS login.</description>
     </item>
     <item>
       <title>Assignments</title>
@@ -36,14 +49,14 @@ For each assignment, the assistants supervise 3 help sessions for troubleshootin
     <item>
       <title>Lectures</title>
       <link>https://ad2-uu-se.github.io/lectures/index.html</link>
-      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
       <guid>https://ad2-uu-se.github.io/lectures/index.html</guid>
       <description>Links to slides and detailed information on the lectures.</description>
     </item>
     <item>
       <title>Exam</title>
       <link>https://ad2-uu-se.github.io/exam/index.html</link>
-      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
       <guid>https://ad2-uu-se.github.io/exam/index.html</guid>
       <description>There is an individual, written, closed-book exam at the end of the course.
 Some old exams can be found here.
@@ -63,18 +76,9 @@ Chapter 15
     <item>
       <title>Grades and Credits</title>
       <link>https://ad2-uu-se.github.io/grades/index.html</link>
-      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
       <guid>https://ad2-uu-se.github.io/grades/index.html</guid>
-      <description>$\sqrt{3}$ Assignments The three assignments are worth 2 higher-education credits (ECTS credits). The assignment grade is as follows when $a_i$ is your final score (out of 10) on Assignment $i \in 1..3$, and $a = a_1 + a_2 + a_3$ is your total score. You must earn at least 3 points (of 10) on each assignment until the end of its grading session, including at least 1 point (of 5) on each problem.</description>
-    </item>
-    <item>
-      <title>Resources</title>
-      <link>https://ad2-uu-se.github.io/resources/index.html</link>
-      <pubDate>Wed, 19 Aug 2020 11:49:26 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
-      <guid>https://ad2-uu-se.github.io/resources/index.html</guid>
-      <description>Text Book Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms (fourth edition) The MIT Press, 2022. This will be referred to as CLRS4.
-The second edition errata or third can also be used. The third edition will be referred to as CLRS3.
-Note that it is now possible to access library resources online without being on the University network or using a VPN. You will be prompted for you CAS login.</description>
+      <description>Assignments The three assignments are worth 2 higher-education credits (ECTS credits). The assignment grade is as follows when $a_i$ is your final score (out of 10) on Assignment $i \in 1..3$, and $a = a_1 + a_2 + a_3$ is your total score. You must earn at least 3 points (of 10) on each assignment until the end of its grading session, including at least 1 point (of 5) on each problem.</description>
     </item>
     <item>
       <title>Contact, Help, Ethics and FAQ&#34;</title>
