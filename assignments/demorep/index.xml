@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Demo Report on AD2 Homepage</title>
-    <link>http://localhost:1313/assignments/demorep/index.html</link>
-    <description>Recent content in Demo Report on AD2 Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
-    <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/assignments/demorep/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo Report on AD2 Homepage</title><link>https://ad2-uu-se.github.io/assignments/demorep/index.html</link><description>Recent content in Demo Report on AD2 Homepage</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ad2-uu-se.github.io/assignments/demorep/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

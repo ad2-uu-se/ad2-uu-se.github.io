@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Resources on AD2 Homepage</title>
-    <link>http://localhost:1313/resources/index.html</link>
-    <description>Recent content in Resources on AD2 Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
-    <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
-    <lastBuildDate>Wed, 19 Aug 2020 11:49:26 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on AD2 Homepage</title><link>https://ad2-uu-se.github.io/resources/index.html</link><description>Recent content in Resources on AD2 Homepage</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><lastBuildDate>Wed, 19 Aug 2020 11:49:26 +0200</lastBuildDate><atom:link href="https://ad2-uu-se.github.io/resources/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
