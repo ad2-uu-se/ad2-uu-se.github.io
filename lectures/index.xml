@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lectures on AD2 Homepage</title><link>https://ad2-uu-se.github.io/lectures/index.html</link><description>Recent content in Lectures on AD2 Homepage</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><lastBuildDate>Wed, 19 Aug 2020 11:41:46 +0200</lastBuildDate><atom:link href="https://ad2-uu-se.github.io/lectures/index.xml" rel="self" type="application/rss+xml"/><item><title>Lecture 1</title><link>https://ad2-uu-se.github.io/lectures/lecture1/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture1/index.html</guid><description>&lt;h2 id="todays-topics-introduction-and-asymptotic-analysis">Today&amp;rsquo;s Topics: Introduction and asymptotic analysis&lt;/h2>
+&lt;ul>
+&lt;li>Introduction/revision on algorithm analysis&lt;/li>
+&lt;li>Worst case running time.&lt;/li>
+&lt;li>Introduction to asymptotic analysis $O$,$\Theta$ and $\Omega$.&lt;/li>
+&lt;/ul>
+&lt;h2 id="links-to-slides-and-other-material">Links to Slides and other material&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://ad2-uu-se.github.io/slides/00-Logistics.pdf" target="_blank">Slides&lt;/a>
+on introduction and logistics.&lt;/li>
+&lt;li>&lt;a href="https://ad2-uu-se.github.io/slides/01-analysis-bigoh-revision.pdf" target="_blank">Slides&lt;/a>
+on an asymptotic analysis.&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>Chapter 1,2, 3.1 and 3.2 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or &lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?&lt;/h2>
+&lt;ul>
+&lt;li>How is the course structured? How do the assignments, help sessions
+and labs work?&lt;/li>
+&lt;li>What does it mean to analyse an algorithm?&lt;/li>
+&lt;li>What is worst case performance?&lt;/li>
+&lt;li>What is the definition of
+&lt;span class="math align-center">$O(f(n))$&lt;/span>,
+&lt;span class="math align-center">$\theta(f(n)$&lt;/span>, and
+&lt;span class="math align-center">$\Omega(f(n))$&lt;/span>?&lt;/li>
+&lt;li>What are some of the basic properties of
+&lt;span class="math align-center">$O()$&lt;/span>,
+&lt;span class="math align-center">$\theta()$&lt;/span>, and
+&lt;span class="math align-center">$\Omega()$&lt;/span>.&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 2</title><link>https://ad2-uu-se.github.io/lectures/lecture2/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture2/index.html</guid><description>&lt;h2 id="todays-topics-divide-and-conquer-and-algorithm-analysis">Today&amp;rsquo;s topics: Divide and Conquer and Algorithm Analysis&lt;/h2>
+&lt;ul>
+&lt;li>Divide and Conquer, in particular how to derive a recurrence
+relation for the running time.&lt;/li>
+&lt;li>More on $O$,$\Theta$, and $\Omega$&lt;/li>
+&lt;li>The Master theorem and how to apply it.&lt;/li>
+&lt;/ul>
+&lt;h2 id="slides-used">Slides used&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://ad2-uu-se.github.io/slides/02-algo-analysis.pdf" target="_blank">Algorithm analysis and the master
+theorem&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Chapter 3 and 4 (except 4.6) of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or Chapter 3 and 4 (except 4.6
+and 4.7) of
+&lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You might find the following slides useful: &lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/05DivideAndConquerI.pdf" target="_blank">Divide and Conquer
+I&lt;/a>
+which has some more examples on algorithm analysis, and
+&lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/05DivideAndConquerII.pdf" target="_blank">Divide and Conquer
+II&lt;/a>
+that has information on the master theorem.&lt;/p></description></item><item><title>Lecture 3</title><link>https://ad2-uu-se.github.io/lectures/lecture3/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture3/index.html</guid><description>&lt;p>Guest Lecture by Frej Knutar Lewander&lt;/p>
+&lt;h2 id="todays-topic-graphs-revision">Today&amp;rsquo;s topic: Graphs revision&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Revision on Digraphs/Digraphs: &lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/03Graphs.pdf" target="_blank">Slides
+1-24&lt;/a>
+Although some of this will be revision, you should pay attention to
+how the graph representation effects the time complexity.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://ad2-uu-se.github.io/slides/03_frej_ad2.pdf" target="_blank">Some hints and Tips on using Python for your assignments&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="slides">Slides&lt;/h2>
+&lt;ul>
+&lt;li>Slides 1-24, 33-43 of
+&lt;a href="http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/03Graphs.pdf" target="_blank">Graphs.pdf&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ad2-uu-se.github.io/slides/03_frej_ad2.pdf" target="_blank">Slides on Data Structures in Python&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>Chapter 22, except 22.4 of &lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a> or
+Chapter 20, 20.1-20.3 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/li>
+&lt;li>Chapter 24 Pages 643-650 and Section 24.3 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or chapter 22 (22.1, 22.2
+22.3) of &lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?&lt;/h2>
+&lt;ul>
+&lt;li>What did I forget from my previous courses?
+&lt;ul>
+&lt;li>What is a graph? What is a digraph?&lt;/li>
+&lt;li>What is a good API for graphs?&lt;/li>
+&lt;li>How can they be represented?&lt;/li>
+&lt;li>Depth-first and breadth-first search.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 4</title><link>https://ad2-uu-se.github.io/lectures/lecture4/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture4/index.html</guid><description>&lt;h2 id="todays-topic-dynamic-programming">Today&amp;rsquo;s topic: Dynamic Programming&lt;/h2>
+&lt;ul>
+&lt;li>Dynamic programming. Introduction.&lt;/li>
+&lt;/ul>
+&lt;h2 id="slides">Slides&lt;/h2>
+&lt;ul>
+&lt;li>The slides can be found &lt;a href="https://ad2-uu-se.github.io/slides/04_dynamic_programming_intro.pdf" target="_blank">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>Chapter 15, 15.1, 15.2 ,15.3, 15.4 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or Chapter 14, 14.1 , 14.2, 14.3 and 14.4 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?&lt;/h2>
+&lt;ul>
+&lt;li>What is dynamic programming? Simple example dynamic programming as
+Memorisation.&lt;/li>
+&lt;li>Some example dynamic programs.&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 5</title><link>https://ad2-uu-se.github.io/lectures/lecture5/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture5/index.html</guid><description>&lt;h2 id="todays-topic-dynamic-programming">Today&amp;rsquo;s topic: Dynamic Programming&lt;/h2>
+&lt;ul>
+&lt;li>More on Dynamic Programming, Knapsack and an example.&lt;/li>
+&lt;li>Pseudo Polynomial vs. Polynomial.&lt;/li>
+&lt;/ul>
+&lt;h2 id="links-to-slides">Links to Slides&lt;/h2>
+&lt;ul>
+&lt;li>The slides can be found &lt;a href="https://ad2-uu-se.github.io/slides/05_dynamic_programming_cont.pdf" target="_blank">here&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>All of Chapter 15 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a> or all of
+Chapter 14 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The textbook does not say that much about pseudo-polynomial time and
+the 0-1 Knapsack problem, even though it is an important
+concept. There there is plenty of material on the internet. I suggest
+that you start with the Wikipedia entries on &lt;a href="https://en.wikipedia.org/wiki/Pseudo-polynomial_time" target="_blank">Pseudo-polynomial
+time&lt;/a> and the
+&lt;a href="https://en.wikipedia.org/wiki/Knapsack_problem" target="_blank">Knapsack
+problem&lt;/a>. You also
+might find these
+&lt;a href="https://courses.csail.mit.edu/6.006/fall11/rec/rec21_knapsack.pdf" target="_blank">notes&lt;/a>
+useful.&lt;/p></description></item><item><title>Lecture 6</title><link>https://ad2-uu-se.github.io/lectures/lecture6/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture6/index.html</guid><description>&lt;h2 id="todays-topics-greedy-algorithms">Today&amp;rsquo;s topics: Greedy Algorithms&lt;/h2>
+&lt;ul>
+&lt;li>Introduction to Greedy &lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsI.pdf" target="_blank">Slides
+1-15&lt;/a>.
+&lt;ul>
+&lt;li>We will look a greedy algorithm for the coin-change problem. This only
+works with certain denomination coins. You should understand the
+proof of why it works, and when it works.&lt;/li>
+&lt;li>Interval scheduling. Again we met a dynamic programming solution
+before, here we will look at a simple greedy algorithm and
+understand why it is correct.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Shortest Paths as a greedy algorithm. &lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsII.pdf" target="_blank">Slides 1-16&lt;/a>&lt;/li>
+&lt;li>All-Pairs Shortest path using Dynamic programming (The
+‣ Bellman–Ford–Moore algorithm). &lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/06DynamicProgrammingII.pdf" target="_blank">Slides
+33-41&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>Chapter 16 except 16.4 and 16.5 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or Chapter 15, 15.1,15.2 and
+15.3 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?&lt;/h2>
+&lt;ul>
+&lt;li>How do I set up shortest paths as a dynamic program? How do I avoid cycles?&lt;/li>
+&lt;li>How does Dijkstra’s algorithm work? Why is it correct?&lt;/li>
+&lt;li>What is a greedy algorithm?
+&lt;ul>
+&lt;li>How do greedy algorithms compare with dynamic programming?&lt;/li>
+&lt;li>Are Greedy algorithms always optimal?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 7</title><link>https://ad2-uu-se.github.io/lectures/lecture7/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture7/index.html</guid><description>&lt;h2 id="todays-topics-minimal-spanning-trees">Today&amp;rsquo;s topics: Minimal Spanning Trees.&lt;/h2>
+&lt;ul>
+&lt;li>Minimal Spanning Trees, Prim&amp;rsquo;s algorithm.&lt;/li>
+&lt;li>slides 20-49 of &lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsII.pdf" target="_blank">Greedy Algorithms
+II&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>Chapter 23 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or Chapter 21 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-should-i-know-by-the-end-of-this-lecture">What should I know by the end of this lecture?&lt;/h2>
+&lt;ul>
+&lt;li>What is a minimal spanning tree?&lt;/li>
+&lt;li>Why is the greedy algorithm correct?&lt;/li>
+&lt;li>How does Prim&amp;rsquo;s Algorithm work?&lt;/li>
+&lt;/ul></description></item><item><title>Lectures 8,9</title><link>https://ad2-uu-se.github.io/lectures/lectures8-9/index.html</link><pubDate>Wed, 19 Aug 2020 11:41:46 +0200</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lectures8-9/index.html</guid><description>Lecture plan and link to slides.</description></item><item><title>Lectures 10 and 11</title><link>https://ad2-uu-se.github.io/lectures/lectures10-11/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lectures10-11/index.html</guid><description>&lt;h2 id="todays-topic-p-vs-np">Today&amp;rsquo;s topic: P vs NP&lt;/h2>
+&lt;p>This will be a not so formal introduction to P and NP. Every computer
+scientist should know something about NP complete problems. If you
+know that a problem is NP complete, then you know that it is very hard
+to find an optimal solution.&lt;/p>
+&lt;ul>
+&lt;li>The definition of P and NP&lt;/li>
+&lt;li>The definition of Reduction and NP Hardness&lt;/li>
+&lt;li>NP Completeness&lt;/li>
+&lt;li>Some NP Complete Problems.&lt;/li>
+&lt;li>What now? What courses should I take to learn more about algorithms
+and optimisation?&lt;/li>
+&lt;/ul>
+&lt;p>This material is examined.&lt;/p></description></item><item><title>Lecture 12</title><link>https://ad2-uu-se.github.io/lectures/lecture12/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture12/index.html</guid><description>&lt;h2 id="todays-topic-union-find">Today&amp;rsquo;s topic: Union Find&lt;/h2>
+&lt;ul>
+&lt;li>Disjoint-set data-type. What is the API and some applications?&lt;/li>
+&lt;li>Naive representation: Sets represented as trees.&lt;/li>
+&lt;li>Representing trees as arrays, and Naive linking.&lt;/li>
+&lt;li>Link by Size&lt;/li>
+&lt;li>Link by Rank&lt;/li>
+&lt;li>Path compression&lt;/li>
+&lt;li>Analysis of run time.&lt;/li>
+&lt;/ul>
+&lt;h2 id="slides">Slides&lt;/h2>
+&lt;p>I used slides 1 to 41 from
+&lt;a href="https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/UnionFind.pdf" target="_blank">UnionFind&lt;/a>.&lt;/p>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>These &lt;a href="https://people.eecs.berkeley.edu/~vazirani/algorithms/chap5.pdf" target="_blank">notes&lt;/a>
+contain useful information on greedy algorithms in general and section
+5.1.4 is on Union Find. The best source is the textbook Chapter 21
+(excluding section 21.4) of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or
+Chapter 19 (excluding 19.4) of &lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="link-to-online-lectures-for-further-study">Link to online lectures for further study.&lt;/h2>
+&lt;p>Both &lt;a href="https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw" target="_blank">William
+Fist&lt;/a> and
+&lt;a href="https://www.youtube.com/channel/UC7FzTMO4rKvlqIyU5vwzFKQ" target="_blank">Josh Hug&lt;/a>
+cover the same material, although Josh Hug takes it much more slowly.&lt;/p></description></item><item><title>Lecture 13</title><link>https://ad2-uu-se.github.io/lectures/lecture13/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/lectures/lecture13/index.html</guid><description>&lt;h2 id="todays-topic-string-matching">Today&amp;rsquo;s topic: String Matching&lt;/h2>
+&lt;ul>
+&lt;li>The Rabin-Karp algorithm for fast string matching.&lt;/li>
+&lt;/ul>
+&lt;h2 id="slides">Slides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://ad2-uu-se.github.io/slides/11_string_matching.pdf" target="_blank">Slides&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reading-guide">Reading Guide&lt;/h2>
+&lt;ul>
+&lt;li>Chapter 32 except sections 32.3 and 32.4 of
+&lt;a href="https://uub.primo.exlibrisgroup.com/permalink/46LIBRIS_UUB/1f653j1/alma991002384899707596" target="_blank">CLRS3&lt;/a>
+or &lt;a href="https://uub.primo.exlibrisgroup.com/discovery/fulldisplay?docid=alma991018351660807596&amp;context=L&amp;vid=46LIBRIS_UUB:UUB" target="_blank">CLRS4&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-should-i-know-by-the-end-of-this-set-of-lecture">What should I know by the end of this set of lecture?&lt;/h2>
+&lt;ul>
+&lt;li>How does Rabin-Karp work? What is the clever idea with
+hash-functions.&lt;/li>
+&lt;li>How does Rabin-Karp compare with brute force string matching?&lt;/li>
+&lt;/ul></description></item></channel></rss>
