@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exam :: AD2 Homepage</title><link>https://ad2-uu-se.github.io/exam/index.html</link><description>There is an individual, written, closed-book exam at the end of the course.
-Some old exams can be found here.
-Expected Effort One higher-education credit (ECTS credit) translates under Swedish university law into an expected 26.67 hours of work for the average student. Hence 133.33 hours are expected on this 5-credit course.
-The exam is worth 3 credits. In addition to the exam preparation performed while working (during 90 hours) for the 2 credits for the assignments the remaining preparation and the taking of the exam are expected to take 24 hours. Recall that 19.5 hours are spent on the 13 lectures.</description><generator>Hugo</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><atom:link href="https://ad2-uu-se.github.io/exam/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam :: AD2 Homepage</title>
+    <link>http://localhost:1313/exam/index.html</link>
+    <description>There is an individual, written, closed-book exam at the end of the course.&#xA;Some old exams can be found here.&#xA;Expected Effort One higher-education credit (ECTS credit) translates under Swedish university law into an expected 26.67 hours of work for the average student. Hence 133.33 hours are expected on this 5-credit course.&#xA;The exam is worth 3 credits. In addition to the exam preparation performed while working (during 90 hours) for the 2 credits for the assignments the remaining preparation and the taking of the exam are expected to take 24 hours. Recall that 19.5 hours are spent on the 13 lectures.</description>
+    <generator>Hugo</generator>
+    <language>en-uk</language>
+    <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
+    <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
+    <atom:link href="http://localhost:1313/exam/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
