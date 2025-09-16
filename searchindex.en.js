@@ -17,7 +17,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "AD2 1DL231",
-    "content": "Lecture, help sessions and grading sessions information There is a menu item for each lecture where you can find a reading guide for the textbook, and links to additional material.\nPlease note that this timetable is still preliminary and is subject to change. The official timetable is in timeedit.\nFor the lecture locations please look at timeedit timeedit schedule is always correct. If there are any discrepancies between this page and timeedit, then please inform me.\nLecture/Assignment Date Topic 1 2025-11-10 13-15 Introduction to the course and revision of Algorithm analysis 2 2025-11-13 15-17 Revision of Graphs, and the Python API for the assignments (Frej Knutar Lewander) 3 2025-11-14 10-15 Dynamic Programming - Introduction Help 1a 2025-11-14 13-15 4 2025-11-17 13-15 Dynamic Programming - Knapsack Help 1b 2025-11-19 15-17 Help 1c 2025-11-20 13-17 5 2025-11-21 10-15 Greedy Algorithms Deadline Assignment 1 2025-11-21 15:00 6 2025-11-24 Minimal Spanning Trees Help 2a 2025-11-16 10-12 Grading session Assignment 1 2025-11-28 By invitation only 7 2025-12-01 10-12 Network flows Help 2b 2025-12-01 13-15 Solution Session Assignment 1 2025-12-04 09-10 Obs only 45 mins 8 2025-12-04 13-15 Networks flows, Bipartite matching Help 2c 2025-12-05 08-10 Deadline Assignment 2 2025-12-05 15:00 9 2025-12-08 10-12 P vs NP (Pierre Flener) Help 3a 2025-12-09 13-15 10 2025-12-11 P vs NP (Pierre Flener) Help 3b 2025-12-12 15-17 11 2025-12-15 Union Find Solution Session Assignment 2 2015-12-15 15-16 Obs only 45 mins Help 3c 2025-12-18 15-17 Exam 2025-01-05 TBA Deadline Assignment 3 2026-01-09 15:00",
+    "content": "Lecture, help sessions and grading sessions information There is a menu item for each lecture where you can find a reading guide for the textbook, and links to additional material.\nPlease note that this timetable is still preliminary and is subject to change. The official timetable is in timeedit.\nFor the lecture locations please look at timeedit timeedit schedule is always correct. If there are any discrepancies between this page and timeedit, then please inform me.\nLecture/Assignment Date Topic 1 2025-11-10 13-15 Introduction to the course and revision of Algorithm analysis 2 2025-11-13 15-17 Revision of Graphs, and the Python API for the assignments (Frej Knutar Lewander) 3 2025-11-14 10-15 Dynamic Programming - Introduction Help 1a 2025-11-14 13-15 4 2025-11-17 13-15 Dynamic Programming - Knapsack Help 1b 2025-11-19 15-17 Help 1c 2025-11-20 13-17 5 2025-11-21 10-12 Greedy Algorithms Deadline Assignment 1 2025-11-21 15:00 6 2025-11-24 13-15 Minimal Spanning Trees Help 2a 2025-11-16 10-12 Grading session Assignment 1 2025-11-28 By invitation only 7 2025-12-01 10-12 Network flows Help 2b 2025-12-01 13-15 Solution Session Assignment 1 2025-12-04 09-10 Obs only 45 mins 8 2025-12-04 13-15 Networks flows, Bipartite matching Help 2c 2025-12-05 08-10 Deadline Assignment 2 2025-12-05 15:00 9 2025-12-08 10-12 Union Find Help 3a 2025-12-09 13-15 10 2025-12-11 P vs NP (Pierre Flener) Help 3b 2025-12-12 15-17 11 2025-12-15 P vs NP (Pierre Flener) Solution Session Assignment 2 2015-12-15 15-16 Obs only 45 mins Help 3c 2025-12-18 15-17 Exam 2025-01-05 TBA Deadline Assignment 3 2026-01-09 15:00",
     "description": "Timetable and link to lectures",
     "tags": [],
     "title": "Lectures",
@@ -81,7 +81,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Today’s topics: Divide and Conquer and Algorithm Analysis Divide and Conquer, in particular how to derive a recurrence relation for the running time. More on $O$,$\\Theta$, and $\\Omega$ The Master theorem and how to apply it. Slides used Algorithm analysis and the master theorem Reading Guide Chapter 3 and 4 (except 4.6) of CLRS3 or Chapter 3 and 4 (except 4.6 and 4.7) of CLRS4.\nYou might find the following slides useful: Divide and Conquer I which has some more examples on algorithm analysis, and Divide and Conquer II that has information on the master theorem.\nWhat should I know by the end of this lecture? You should know much more about the Big O notation. In particular\nGeneral algebra with $O$, $\\theta$ and $\\Omega$. For example when is $O(f(n)) \\leq O(g(n))$? Constant time $O(1)$. Linear time $O(n)$, polynomial time, exponential time The rate of different asymptotic growths. Further you should know about divide and conquer an algorithm design technique and the Analysis of Divide and Conquer using recurrence relations. You should understand and be able to reproduce a simple divide and conquer analysis of an algorithm such as binary search or merge sort. You should understand how to go from recurrence relations such as $$ T(n) = aT(n/b) + f(n) $$ to asymptotic analysis of the function $T(n)$. For which functions $g$ is the following statement true: $$ T(n) \\in O(g(n)) $$\nAlthough I do not expect expect you understand the proof, you should try to get an intuition of the different cases of the master theorem.",
+    "content": "Guest Lecture by Frej Knutar Lewander\nToday’s topic: Graphs revision Revision on Digraphs/Digraphs: Slides 1-24 Although some of this will be revision, you should pay attention to how the graph representation effects the time complexity.\nSome hints and Tips on using Python for your assignments\nSlides Slides 1-24, 33-43 of Graphs.pdf Slides on Data Structures in Python Reading Guide Chapter 22, except 22.4 of CLRS3 or Chapter 20, 20.1-20.3 of CLRS4. Chapter 24 Pages 643-650 and Section 24.3 of CLRS3 or chapter 22 (22.1, 22.2 22.3) of CLRS4. What should I know by the end of this lecture? What did I forget from my previous courses? What is a graph? What is a digraph? What is a good API for graphs? How can they be represented? Depth-first and breadth-first search.",
     "description": "Lecture plan and link to slides.",
     "tags": [],
     "title": "Lecture 2",
@@ -89,7 +89,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Guest Lecture by Frej Knutar Lewander\nToday’s topic: Graphs revision Revision on Digraphs/Digraphs: Slides 1-24 Although some of this will be revision, you should pay attention to how the graph representation effects the time complexity.\nSome hints and Tips on using Python for your assignments\nSlides Slides 1-24, 33-43 of Graphs.pdf Slides on Data Structures in Python Reading Guide Chapter 22, except 22.4 of CLRS3 or Chapter 20, 20.1-20.3 of CLRS4. Chapter 24 Pages 643-650 and Section 24.3 of CLRS3 or chapter 22 (22.1, 22.2 22.3) of CLRS4. What should I know by the end of this lecture? What did I forget from my previous courses? What is a graph? What is a digraph? What is a good API for graphs? How can they be represented? Depth-first and breadth-first search.",
+    "content": "Today’s topic: Dynamic Programming Dynamic programming. Introduction. Slides The slides can be found here Reading Guide Chapter 15, 15.1, 15.2 ,15.3, 15.4 of CLRS3 or Chapter 14, 14.1 , 14.2, 14.3 and 14.4 of CLRS4. What should I know by the end of this lecture? What is dynamic programming? Simple example dynamic programming as Memorisation. Some example dynamic programs.",
     "description": "Lecture plan and link to slides.",
     "tags": [],
     "title": "Lecture 3",
@@ -97,7 +97,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Today’s topic: Dynamic Programming Dynamic programming. Introduction. Slides The slides can be found here Reading Guide Chapter 15, 15.1, 15.2 ,15.3, 15.4 of CLRS3 or Chapter 14, 14.1 , 14.2, 14.3 and 14.4 of CLRS4. What should I know by the end of this lecture? What is dynamic programming? Simple example dynamic programming as Memorisation. Some example dynamic programs.",
+    "content": "Today’s topic: Dynamic Programming More on Dynamic Programming, Knapsack and an example. Pseudo Polynomial vs. Polynomial. Links to Slides The slides can be found here Reading Guide All of Chapter 15 of CLRS3 or all of Chapter 14 of CLRS4.\nThe textbook does not say that much about pseudo-polynomial time and the 0-1 Knapsack problem, even though it is an important concept. There there is plenty of material on the internet. I suggest that you start with the Wikipedia entries on Pseudo-polynomial time and the Knapsack problem. You also might find these notes useful.\nWhat should I know by the end of this lecture? Yet more dynamic programming examples How to decompose a problem using Dynamic Programming Optimal substructure The difference between polynomial and pseudo-polynomial time. Ask yourself why isn’t the dynamic program for 0-1 Knapsack polynomial time?",
     "description": "Lecture plan and link to slides.",
     "tags": [],
     "title": "Lecture 4",
@@ -105,7 +105,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Today’s topic: Dynamic Programming More on Dynamic Programming, Knapsack and an example. Pseudo Polynomial vs. Polynomial. Links to Slides The slides can be found here Reading Guide All of Chapter 15 of CLRS3 or all of Chapter 14 of CLRS4.\nThe textbook does not say that much about pseudo-polynomial time and the 0-1 Knapsack problem, even though it is an important concept. There there is plenty of material on the internet. I suggest that you start with the Wikipedia entries on Pseudo-polynomial time and the Knapsack problem. You also might find these notes useful.\nWhat should I know by the end of this lecture? Yet more dynamic programming examples How to decompose a problem using Dynamic Programming Optimal substructure The difference between polynomial and pseudo-polynomial time. Ask yourself why isn’t the dynamic program for 0-1 Knapsack polynomial time?",
+    "content": "Today’s topics: Greedy Algorithms Introduction to Greedy Slides 1-15. We will look a greedy algorithm for the coin-change problem. This only works with certain denomination coins. You should understand the proof of why it works, and when it works. Interval scheduling. Again we met a dynamic programming solution before, here we will look at a simple greedy algorithm and understand why it is correct. Shortest Paths as a greedy algorithm. Slides 1-16 All-Pairs Shortest path using Dynamic programming (The ‣ Bellman–Ford–Moore algorithm). Slides 33-41 Reading Guide Chapter 16 except 16.4 and 16.5 of CLRS3 or Chapter 15, 15.1,15.2 and 15.3 of CLRS4. What should I know by the end of this lecture? How do I set up shortest paths as a dynamic program? How do I avoid cycles? How does Dijkstra’s algorithm work? Why is it correct? What is a greedy algorithm? How do greedy algorithms compare with dynamic programming? Are Greedy algorithms always optimal?",
     "description": "Lecture plan and link to slides.",
     "tags": [],
     "title": "Lecture 5",
@@ -113,7 +113,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Today’s topics: Greedy Algorithms Introduction to Greedy Slides 1-15. We will look a greedy algorithm for the coin-change problem. This only works with certain denomination coins. You should understand the proof of why it works, and when it works. Interval scheduling. Again we met a dynamic programming solution before, here we will look at a simple greedy algorithm and understand why it is correct. Shortest Paths as a greedy algorithm. Slides 1-16 All-Pairs Shortest path using Dynamic programming (The ‣ Bellman–Ford–Moore algorithm). Slides 33-41 Reading Guide Chapter 16 except 16.4 and 16.5 of CLRS3 or Chapter 15, 15.1,15.2 and 15.3 of CLRS4. What should I know by the end of this lecture? How do I set up shortest paths as a dynamic program? How do I avoid cycles? How does Dijkstra’s algorithm work? Why is it correct? What is a greedy algorithm? How do greedy algorithms compare with dynamic programming? Are Greedy algorithms always optimal?",
+    "content": "Today’s topics: Minimal Spanning Trees. Minimal Spanning Trees, Prim’s algorithm. slides 20-49 of Greedy Algorithms II Reading Guide Chapter 23 of CLRS3 or Chapter 21 of CLRS4. What should I know by the end of this lecture? What is a minimal spanning tree? Why is the greedy algorithm correct? How does Prim’s Algorithm work?",
     "description": "Lecture plan and link to slides.",
     "tags": [],
     "title": "Lecture 6",
@@ -121,19 +121,19 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Today’s topics: Minimal Spanning Trees. Minimal Spanning Trees, Prim’s algorithm. slides 20-49 of Greedy Algorithms II Reading Guide Chapter 23 of CLRS3 or Chapter 21 of CLRS4. What should I know by the end of this lecture? What is a minimal spanning tree? Why is the greedy algorithm correct? How does Prim’s Algorithm work?",
-    "description": "Lecture plan and link to slides.",
-    "tags": [],
-    "title": "Lecture 7",
-    "uri": "/lectures/lecture7/index.html"
-  },
-  {
-    "breadcrumb": "AD2 1DL231 \u003e Lectures",
     "content": "Network Flows When I do these lectures live, it normally takes me 3 lectures to go through the material slowly and do lots of examples. This is a list of topics that are needed to under network flows. You goal should be to understand each topic.\nDefinition of flow network. The minimum-cut problem. The maximum flow problem. The definition of a residual network. An Augmented path. The statement of the Min-cut, max-flow theorem. The Ford–Fulkerson algorithm. How to use the max-flow algorithm for maximum bipartite matching. Lecture 8 Introduction to NetworkFlow I Slides 1-23 and Demo of Ford-Fulkerson Lecture 9 Alternative mathematical API. Flows that are Skew Symmetric flows, that is $f(u,v)= - f(v,u)$. We’ll do this on the blackboard, but skew symmetric flows are a bit counter intuitive, but they make the proofs and implementation easier. Take a look at the presentation at Wikipedia. This is not examined, and I won’t go into much detail.\nMin-Cut Max-Flow duality slides 25-36 of NetworkFlow I\nChoosing the wrong paths: Exponential worst case slides 37-41 of NetworkFlow I\nSummary of complexity results 73-74 of NetworkFlow I\nBipartite matching slides 1-17 of NetworkFlow II.\nReading Guide Chapter 26, except 26.4 and 26.5 of CLRS3 or Chapter 24 of CLRS4. What should I know by the end of this set of lectures? Do I understand the definitions of a flow network, min-cuts and maximum flows? Why does the naive greedy algorithm for maximum flow fail? The relation between augmented paths and residual networks. What is the relationship between flows and cuts? What is the relationship between negative flows and residual networks? What does the min-cut max-flow algorithm tell us and how does it help us to derive an algorithm? What is bipartite matching? What are its applications?",
     "description": "Lecture plan and link to slides.",
     "tags": [],
-    "title": "Lectures 8,9",
-    "uri": "/lectures/lectures8-9/index.html"
+    "title": "Lectures 7,8",
+    "uri": "/lectures/lectures7-8/index.html"
+  },
+  {
+    "breadcrumb": "AD2 1DL231 \u003e Lectures",
+    "content": "Today’s topic: Union Find Disjoint-set data-type. What is the API and some applications? Naive representation: Sets represented as trees. Representing trees as arrays, and Naive linking. Link by Size Link by Rank Path compression Analysis of run time. Slides I used slides 1 to 41 from UnionFind.\nReading Guide These notes contain useful information on greedy algorithms in general and section 5.1.4 is on Union Find. The best source is the textbook Chapter 21 (excluding section 21.4) of CLRS3 or Chapter 19 (excluding 19.4) of CLRS4. Link to online lectures for further study. Both William Fist and Josh Hug cover the same material, although Josh Hug takes it much more slowly.\nWilliam Fist has a number of useful lectures on Union-Find Introducton. Application. Union and Find Operations with trees and arrays. Path Compression Josh Hug Introduction to the Union Find API Quick Find Quick Union Weighted Quick Union Path Compression What should I know by the end of this set of lecture? What is the union-find API?\nWhat are some of the applications of union-find?\nHow can I use trees to represent sets?\nHow do I represent sets of trees as a forest?\nWhat are the different strategies for combining trees? Link by Size and Link by Rank.\nWhat is path compression? How does this improve the complexity of union-find? Note that if you go deeply into the analysis of union-find you will come to amortised analysis. This is the analysis of the complexity of an algorithm over multiple-runs. Amortised analysis is not part of this course, but it is part of AD3 - 1DL481 that is normally taught by Pierre Flener",
+    "description": "Lecture plan and link to slides.",
+    "tags": [],
+    "title": "Lecture 9",
+    "uri": "/lectures/lecture9/index.html"
   },
   {
     "breadcrumb": "AD2 1DL231 \u003e Lectures",
@@ -142,22 +142,6 @@ var relearn_searchindex = [
     "tags": [],
     "title": "Lectures 10 and 11",
     "uri": "/lectures/lectures10-11/index.html"
-  },
-  {
-    "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Today’s topic: Union Find Disjoint-set data-type. What is the API and some applications? Naive representation: Sets represented as trees. Representing trees as arrays, and Naive linking. Link by Size Link by Rank Path compression Analysis of run time. Slides I used slides 1 to 41 from UnionFind.\nReading Guide These notes contain useful information on greedy algorithms in general and section 5.1.4 is on Union Find. The best source is the textbook Chapter 21 (excluding section 21.4) of CLRS3 or Chapter 19 (excluding 19.4) of CLRS4. Link to online lectures for further study. Both William Fist and Josh Hug cover the same material, although Josh Hug takes it much more slowly.\nWilliam Fist has a number of useful lectures on Union-Find Introducton. Application. Union and Find Operations with trees and arrays. Path Compression Josh Hug Introduction to the Union Find API Quick Find Quick Union Weighted Quick Union Path Compression What should I know by the end of this set of lecture? What is the union-find API?\nWhat are some of the applications of union-find?\nHow can I use trees to represent sets?\nHow do I represent sets of trees as a forest?\nWhat are the different strategies for combining trees? Link by Size and Link by Rank.\nWhat is path compression? How does this improve the complexity of union-find? Note that if you go deeply into the analysis of union-find you will come to amortised analysis. This is the analysis of the complexity of an algorithm over multiple-runs. Amortised analysis is not part of this course, but it is part of AD3 - 1DL481 that is normally taught by Pierre Flener",
-    "description": "Lecture plan and link to slides.",
-    "tags": [],
-    "title": "Lecture 12",
-    "uri": "/lectures/lecture12/index.html"
-  },
-  {
-    "breadcrumb": "AD2 1DL231 \u003e Lectures",
-    "content": "Today’s topic: String Matching The Rabin-Karp algorithm for fast string matching. Slides Slides Reading Guide Chapter 32 except sections 32.3 and 32.4 of CLRS3 or CLRS4. What should I know by the end of this set of lecture? How does Rabin-Karp work? What is the clever idea with hash-functions. How does Rabin-Karp compare with brute force string matching?",
-    "description": "Lecture plan and link to slides.",
-    "tags": [],
-    "title": "Lecture 13",
-    "uri": "/lectures/lecture13/index.html"
   },
   {
     "breadcrumb": "AD2 1DL231",
