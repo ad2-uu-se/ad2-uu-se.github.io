@@ -1,3 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assignment 2 :: AD2 Homepage</title><link>https://ad2-uu-se.github.io/assignments/assignment2/index.html</link><description>The specification and the grading rules for assignment 2 can be found in the following document. You are advised to read the grading rules carefully.
-All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.
-A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description><generator>Hugo</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><lastBuildDate/><atom:link href="https://ad2-uu-se.github.io/assignments/assignment2/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignment 2 :: AD2 Homepage</title>
+    <link>https://ad2-uu-se.github.io/assignments/assignment2/index.html</link>
+    <description>The specification and the grading rules for assignment 2 can be found in the following document. You are advised to read the grading rules carefully.&#xA;All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.&#xA;A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description>
+    <generator>Hugo</generator>
+    <language>en-uk</language>
+    <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
+    <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://ad2-uu-se.github.io/assignments/assignment2/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,10 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assignments :: AD2 Homepage</title><link>https://ad2-uu-se.github.io/assignments/index.html</link><description>Overall Structure There are 3 mandatory assignments, to be done in alone, worth 2 higher-education credits (ECTS credits) in total.
-The main objective of the assignments is to exercise the theoretical knowledge gained in the lectures. You are to hand in the code and a report. The code should follow the coding convention and the report must follow the structure and content of the demo report
-For each assignment, the assistants supervise 3 help sessions for troubleshooting in the preparation of your reports.</description><generator>Hugo</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ad2-uu-se.github.io/assignments/index.xml" rel="self" type="application/rss+xml"/><item><title>Coding Convention</title><link>https://ad2-uu-se.github.io/assignments/codeconv/index.html</link><pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/assignments/codeconv/index.html</guid><description>Obligatory coding convention for you assignments.</description></item><item><title>Demo Report</title><link>https://ad2-uu-se.github.io/assignments/demorep/index.html</link><pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/assignments/demorep/index.html</guid><description>The main objective of the assignments is to exercise the theoretical knowledge gained in the lectures, on carefully selected problems of our choice. We are not just interested in sufficiently correct and efficient programs, but also in explanations and a runtime analysis, hence a report is also required for each assignment and its quality has an impact on the score for your assignment.
-See the demo report and LaTeX source for the imposed document structure and an indication of the expected quality of content. Our expectations are higher than at the exam, as the aims are to learn something and to prepare for the exam: we expect at least a high degree of correctness, completeness, and compliance with the coding convention of this course.</description></item><item><title>Assignment 1</title><link>https://ad2-uu-se.github.io/assignments/assignment1/index.html</link><pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/assignments/assignment1/index.html</guid><description>The specification and the grading rules for assignment 1 can be found in the following document. You are advised to read the grading rules carefully.
-All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.
-A Zip file with all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description></item><item><title>Assignment 2</title><link>https://ad2-uu-se.github.io/assignments/assignment2/index.html</link><pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/assignments/assignment2/index.html</guid><description>The specification and the grading rules for assignment 2 can be found in the following document. You are advised to read the grading rules carefully.
-All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.
-A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description></item><item><title>Assignment 3</title><link>https://ad2-uu-se.github.io/assignments/assignment3/index.html</link><pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author><guid>https://ad2-uu-se.github.io/assignments/assignment3/index.html</guid><description>The specification and the grading rules for assignment 3 can be found in the following document. You are advised to read the grading rules carefully.
-All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.
-A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments :: AD2 Homepage</title>
+    <link>https://ad2-uu-se.github.io/assignments/index.html</link>
+    <description>Overall Structure There are 3 mandatory assignments, to be done in alone, worth 2 higher-education credits (ECTS credits) in total.&#xA;The main objective of the assignments is to exercise the theoretical knowledge gained in the lectures. You are to hand in the code and a report. The code should follow the coding convention and the report must follow the structure and content of the demo report&#xA;For each assignment, the assistants supervise 3 help sessions for troubleshooting in the preparation of your reports.</description>
+    <generator>Hugo</generator>
+    <language>en-uk</language>
+    <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
+    <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ad2-uu-se.github.io/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding Convention</title>
+      <link>https://ad2-uu-se.github.io/assignments/codeconv/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/assignments/codeconv/index.html</guid>
+      <description>Obligatory coding convention for you assignments.</description>
+    </item>
+    <item>
+      <title>Demo Report</title>
+      <link>https://ad2-uu-se.github.io/assignments/demorep/index.html</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/assignments/demorep/index.html</guid>
+      <description>The main objective of the assignments is to exercise the theoretical knowledge gained in the lectures, on carefully selected problems of our choice. We are not just interested in sufficiently correct and efficient programs, but also in explanations and a runtime analysis, hence a report is also required for each assignment and its quality has an impact on the score for your assignment.&#xA;See the demo report and LaTeX source for the imposed document structure and an indication of the expected quality of content. Our expectations are higher than at the exam, as the aims are to learn something and to prepare for the exam: we expect at least a high degree of correctness, completeness, and compliance with the coding convention of this course.</description>
+    </item>
+    <item>
+      <title>Assignment 1</title>
+      <link>https://ad2-uu-se.github.io/assignments/assignment1/index.html</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/assignments/assignment1/index.html</guid>
+      <description>The specification and the grading rules for assignment 1 can be found in the following document. You are advised to read the grading rules carefully.&#xA;All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.&#xA;A Zip file with all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description>
+    </item>
+    <item>
+      <title>Assignment 2</title>
+      <link>https://ad2-uu-se.github.io/assignments/assignment2/index.html</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/assignments/assignment2/index.html</guid>
+      <description>The specification and the grading rules for assignment 2 can be found in the following document. You are advised to read the grading rules carefully.&#xA;All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.&#xA;A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description>
+    </item>
+    <item>
+      <title>Assignment 3</title>
+      <link>https://ad2-uu-se.github.io/assignments/assignment3/index.html</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate><author>justin.pearson@it.uu.se (Justin Pearson)</author>
+      <guid>https://ad2-uu-se.github.io/assignments/assignment3/index.html</guid>
+      <description>The specification and the grading rules for assignment 3 can be found in the following document. You are advised to read the grading rules carefully.&#xA;All skeleton code can be found here. You must use this years skeleton code, as it has changed from previous years.&#xA;A Zip filewith all the assignments and the source of the demo report. If that link does not work then try copying and pasting the following link into your browser: http://user.it.uu.se/~justin/Assets/Teaching/AD2/ad2_source.zip</description>
+    </item>
+  </channel>
+</rss>
