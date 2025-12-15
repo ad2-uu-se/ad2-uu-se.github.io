@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Grades and Credits :: AD2 Homepage</title>
-    <link>https://ad2-uu-se.github.io/grades/index.html</link>
-    <description>Assignments The three assignments are worth 2 higher-education credits (ECTS credits). The assignment grade is as follows when $a_i$ is your final score (out of 10) on Assignment $i \in 1..3$, and $a = a_1 + a_2 + a_3$ is your total score. Each assignment is divided into two Problems with sub parts. On each of the problems you must have a score of at least 1 (out of 5) to pass the course. If you have a 0 on any of the two problems any assignment, then you will fail the assignments.</description>
-    <generator>Hugo</generator>
-    <language>en-uk</language>
-    <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
-    <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
-    <atom:link href="https://ad2-uu-se.github.io/grades/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Grades and Credits :: AD2 Homepage</title><link>https://ad2-uu-se.github.io/grades/index.html</link><description>Assignments The three assignments are worth 2 higher-education credits (ECTS credits). The assignment grade is as follows when $a_i$ is your final score (out of 10) on Assignment $i \in 1..3$, and $a = a_1 + a_2 + a_3$ is your total score. Each assignment is divided into two Problems with sub parts. On each of the problems you must have a score of at least 1 (out of 5) to pass the course. If you have a 0 on any of the two problems any assignment, then you will fail the assignments.</description><generator>Hugo</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><atom:link href="https://ad2-uu-se.github.io/grades/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

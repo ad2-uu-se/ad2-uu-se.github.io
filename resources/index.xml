@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Resources :: AD2 Homepage</title>
-    <link>https://ad2-uu-se.github.io/resources/index.html</link>
-    <description>Text Book Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms (fourth edition) The MIT Press, 2022. This will be referred to as CLRS4.&#xA;The second edition errata or third can also be used. The third edition will be referred to as CLRS3.&#xA;Note that it is now possible to access library resources online without being on the University network or using a VPN. You will be prompted for you CAS login. You need to go through the library search system. For the fourth edition follow this CLRS4 and for the third edition follow this CLRS3.</description>
-    <generator>Hugo</generator>
-    <language>en-uk</language>
-    <managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor>
-    <webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://ad2-uu-se.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources :: AD2 Homepage</title><link>https://ad2-uu-se.github.io/resources/index.html</link><description>Text Book Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduction to Algorithms (fourth edition) The MIT Press, 2022. This will be referred to as CLRS4.
+The second edition errata or third can also be used. The third edition will be referred to as CLRS3.
+Note that it is now possible to access library resources online without being on the University network or using a VPN. You will be prompted for you CAS login. You need to go through the library search system. For the fourth edition follow this CLRS4 and for the third edition follow this CLRS3.</description><generator>Hugo</generator><language>en-uk</language><managingEditor>justin.pearson@it.uu.se (Justin Pearson)</managingEditor><webMaster>justin.pearson@it.uu.se (Justin Pearson)</webMaster><lastBuildDate/><atom:link href="https://ad2-uu-se.github.io/resources/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
